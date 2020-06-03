@@ -1,6 +1,9 @@
 # Additional content
 imgs/
-
+.keras/models/
+data/holdout_folder/
+data/train_folder/
+data/validation_folder/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
