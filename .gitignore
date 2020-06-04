@@ -1,4 +1,5 @@
 # Additional content
+img/
 imgs/
 .keras/models/
 data/holdout_folder/
