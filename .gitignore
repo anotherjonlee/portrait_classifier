@@ -1,4 +1,6 @@
 # Additional content
+models/vgg*
+checkpoints/
 img/
 imgs/
 .keras/models/
