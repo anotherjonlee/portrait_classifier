@@ -1,4 +1,5 @@
 # Additional content
+imgs/
 models/vgg*
 checkpoints/
 img/
