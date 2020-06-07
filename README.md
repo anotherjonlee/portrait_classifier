@@ -21,7 +21,7 @@ The project seeks to identify Roman emperors from Roman imperial coin features.
 <p float="left">
   <img src="data/images/original.png" width="200" />
   <img src="data/images/manipulated_coins_0_9765.png" width="200"/>
-  <img src="data/images/manipulated_coins_0_1744.png" width="200"/> 
+  <img src="data/images/manipulated_coins_0_6178.png" width="200"/> 
 </p>
 
 # Basic Model
@@ -29,6 +29,8 @@ The project seeks to identify Roman emperors from Roman imperial coin features.
 ## Model architecture 
 
 ## Results
+
+![my_architecture](data/images/personal_architecture.png)
 
 <p float="left">
   <img src="data/images/model_acc.png" width="400" />
@@ -38,6 +40,7 @@ The project seeks to identify Roman emperors from Roman imperial coin features.
 # Transfer Learning Model (VGG-16)
 
 ## Model architecture
+![vgg_architecture](data/images/vgg_architecture.png)
 
 ## Result
 <p float="left">

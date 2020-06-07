@@ -1,5 +1,5 @@
 # Additional content
-
+.DS_Store
 models/vgg*
 checkpoints/
 img/

@@ -1,10 +1,3 @@
-from bs4 import BeautifulSoup
-import requests
-import time
-import json
-import os
-import sys
-sys.path.append("..")
 
 def img_downloader():
     
@@ -14,13 +7,21 @@ def img_downloader():
     that can be converted into a pandas dataframe.
     """
     
+    from bs4 import BeautifulSoup
+    import requests
+    import time
+    import json
+    import os
+    import sys
+    sys.path.append("..")
+
     base_url = 'http://numismatics.org/search/results?q=department_facet%3A%22Roman%22%20AND%20year_num%3A%5B-30%20TO%20%2A%5D%20AND%20imagesavailable%3Atrue&lang=en&layout=grid&start='
         
     iter_count = 0
     dict_list = []
 
-    if not os.path.exists('img'):
-        os.makedirs('my_folder')
+    if not os.path.exists('../data/raw_imgs/'):
+        os.makedirs('../data/raw_imgs/')
         
     print('Downloading target images and parsing their metadata.')    
     
@@ -41,7 +42,6 @@ def img_downloader():
         if code == 200:
 
             try:
-            
 
                 html_content = requests.get(url).text
                 soup = BeautifulSoup(html_content)
@@ -106,13 +106,12 @@ def img_downloader():
             time.sleep(10)
             pass
 
-
         if error_counter == 10:
-            print(f"Stopped downloading images due to {iter_count}'th error.'")
+            print(f"Stopped downloading images because the function encountered 10 errors.'")
             print(f'page number where a 10th error was encountered: {i}')
             break
 
-    with open('eda.json', 'w') as json_f:
+    with open('../data/raw_metadata.json', 'w') as json_f:
         json.dump(dict_list, json_f)
 
     print('Downloading and parsing processes completed.')
