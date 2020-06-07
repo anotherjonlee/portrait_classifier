@@ -2,9 +2,11 @@
 def img_downloader():
     
     """
-    Upon execution the function will access the image source and download images and their associated
+    Upon execution, the function will access the image source and download images and their associated
     metadata. The function will generate a backup json file as well as out put a list of dictionary
     that can be converted into a pandas dataframe.
+    
+    Ouput:  Dictionaries of scraped metadata (list), backup metadata (json object), image files
     """
     
     from bs4 import BeautifulSoup
