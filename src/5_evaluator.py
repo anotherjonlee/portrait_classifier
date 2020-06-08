@@ -13,7 +13,7 @@ def evaluator(model_name):
     from tensorflow.keras.applications.vgg16 import VGG16
     from tensorflow.keras.models import load_model
     from sklearn.metrics import classification_report
-    from data_generator import data_gen
+    from 3_data_generator import data_gen
     from plot_helper import cm_plotter
     import sys
     sys.path.append("..")
