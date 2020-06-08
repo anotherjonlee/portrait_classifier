@@ -14,7 +14,7 @@ def personal_model(dim = 150, lr = 0.005):
     from tensorflow.keras.optimizers import SGD
     from tensorflow.keras.models import Sequential
     from tensorflow.keras.layers import Activation, Dropout, Flatten, Dense, Conv2D, MaxPooling2D
-    import data_generator
+    import 3_data_generator as data_generator
 
     img_width, img_height = dim, dim
     
@@ -173,7 +173,6 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
 
 
 if __name__ == '__main__':
-    import 3_data_generator as data_generator
     dim = 150
     train_gen, val_gen, _, _ = data_generator.data_gen(dim)
     model = personal_model(dim = dim)

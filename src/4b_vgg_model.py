@@ -17,7 +17,7 @@ def my_model(dim, lr = 0.001):
     from tensorflow.keras.applications.vgg16 import preprocess_input
     import numpy as np
     import pandas as pd
-    import data_generator
+    import 3_data_generator as data_generator
     
     img_width, img_height = dim, dim
     
@@ -168,7 +168,6 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
     print("Saving complete.")
     
 if __name__ == '__main__':
-    import 3_data_generator as data_generator
     dim = 224
     train_gen, val_gen, _, _ = data_generator.data_gen()
     model = my_model(dim = dim)
