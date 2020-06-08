@@ -102,7 +102,7 @@ To overcome the issue above, I decided to leverage transfer learning, specifical
 From its 5 convolutional and max-pooling layers, I let the 5th layer to train with my coin images and replaced its default dense layer with a layer used on my model with a slight modification. Its loss function, activations, estimator, and parameters are identical to my model except the learning rate, which I set to 0.001 rather than 0.005.
 
 ### Transfer Model Result
-After training for 50 potty epochs the model triggered the early stopping parameter with a final validation accuracy at around 82%.
+After training for 50 epochs the model triggered the early stopping parameter with a final validation accuracy at around 82%.
 <p float="left">
   <img src="data/images/final_vgg_accuracy.png" width="400" />
   <img src="data/images/final_vgg_loss.png" width="400" /> 
