@@ -41,6 +41,7 @@ def dataframe_converter(metadata):
     import numpy as np
     import pandas as pd
     import seaborn as sns
+    import json
     import sys
     sys.path.append("..") ## resetting the path to the parent directory
     
