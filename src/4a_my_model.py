@@ -100,6 +100,7 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
     import json
     from tensorflow.keras import callbacks
     import pandas as pd
+    import os
     from plot_helper import acc_plotter, loss_plotter
     import sys
     sys.path.append("..")
@@ -172,6 +173,7 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
 
 
 if __name__ == '__main__':
+    import 3_data_generator as data_generator
     dim = 150
     train_gen, val_gen, _, _ = data_generator.data_gen(dim)
     model = personal_model(dim = dim)

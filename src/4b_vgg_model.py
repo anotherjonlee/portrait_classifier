@@ -167,6 +167,7 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
     print("Saving complete.")
     
 if __name__ == '__main__':
+    import 3_data_generator as data_generator
     dim = 224
     train_gen, val_gen, _, _ = data_generator.data_gen()
     model = my_model(dim = dim)

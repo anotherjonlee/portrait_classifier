@@ -109,27 +109,27 @@ def dataframe_converter(metadata):
     
     
     # Appending necessary path information 
-    target_df['fname'] = target_df.fname.apply(lambda x: '../data/raw_imgs/' + x + '.jpg')
+    df['fname'] = df.fname.apply(lambda x: '../data/raw_imgs/' + x + '.jpg')
     
     # Adding a column with encoded values
     LE = LabelEncoder()
-    target_df['code'] = LE.fit_transform(target_df['portrait'])
+    df['code'] = LE.fit_transform(df['portrait'])
     
     # Converting the year column into a numeric values and remove 'BC' and 'AD'
-    target_df['year'] = df['year'].apply(lambda x: year_converter(x))
+    df['year'] = df['year'].apply(lambda x: year_converter(x))
     
-    target_df.to_csv('../data/raw_metadata.csv')
+    df.to_csv('../data/raw_metadata.csv')
     
     # Limiting the scope to emperors with 1000+ coins
-    target_df = df[df.groupby('portrait')['portrait'].transform('size') > 1000]
+    df = df[df.groupby('portrait')['portrait'].transform('size') > 1000]
     
     # Imputing missing years with average years by emperors
-    target_df['year'] = target_df['year'].fillna(target_df.groupby('portrait')['year'].transform('mean').round())
+    df['year'] = df['year'].fillna(df.groupby('portrait')['year'].transform('mean').round())
     
     # Saving the cleaned dataframe as a csv file
-    target_df.to_csv('../data/cleaned_metadata.csv')
+    df.to_csv('../data/cleaned_metadata.csv')
 
-    return target_df
+    return df
 
 def photo_mover(df):
     """
@@ -197,7 +197,7 @@ def photo_mover(df):
     
 if __name__ == '__main__':
     # Warning: data.img_downloader will attempt to download the entire image set from the source website.
-    import data_collection as data
+    import 1_data_scraper as data
     metadata_lst = data.img_downloader()
     cleaned_df = dataframe_converter(metadata_lst)
     photo_mover(cleaned_df)
