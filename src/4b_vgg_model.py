@@ -103,6 +103,7 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
     import pandas as pd
     from tensorflow.keras import callbacks
     from plot_helper import acc_plotter, loss_plotter
+    import os
     import sys
     sys.path.append("..")
     
