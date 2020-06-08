@@ -92,7 +92,7 @@ def img_downloader():
 
                     temp_dict['fname'] = fname
 
-                    folder_patch = '../imgs/'
+                    folder_path = '../imgs/'
                     if not os.path.exists(folder_path):
                         os.mkdir(folder_path)
                         
@@ -117,7 +117,7 @@ def img_downloader():
             print(f'page number where a 10th error was encountered: {i}')
             break
     
-    folder_patch = '../data/'
+    folder_path = '../data/'
     if not os.path.exists(folder_path):
             os.mkdir(folder_path)
             
