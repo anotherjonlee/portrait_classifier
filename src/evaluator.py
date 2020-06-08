@@ -48,10 +48,21 @@ def evaluator(model_name):
         target_names = class_labels
     )
     
+    # Exporting the predicted values and true values as a .csv file
+    
+    label_dict = {val:key for key,val in test_generator.class_indices.items()}
+    label_true = np.array([label_dict[y] for y in y_true])
+    label_pred = np.array([label_dict[y] for y in y_pred])
+    
+    pd.DataFrame({
+            'y_true': y_true,
+            'y_pred': y_pred, 
+            'label_true': label_true, 
+            'label_pred': label_pred
+    }).to_csv('../data/predicted_values.csv')
+            
     print(f"Printing model's Precision, Recall and f1 scores.")
     print(f'{report}')
-    print('Plotting the confusion matrix.')
-    cm_plotter(y_true, y_pred, class_labels)
 
 if __name__ == '__main__':
     model_name = 'vgg_model'

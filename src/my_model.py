@@ -97,7 +97,9 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
     Output: Seaborn plots(matplotlib objects), keras weight checkpoints, trained CNN model
     """
     
+    import json
     from tensorflow.keras import callbacks
+    import pandas as pd
     from plot_helper import acc_plotter, loss_plotter
     import sys
     sys.path.append("..")
@@ -157,8 +159,12 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
     
     print('Ftting complete. Now saving the fitted model')
     
+    # Saving the trained keras model
     model.save('../saved_models/little_model.h5')
-
+    
+    # Saving the trained model's losses and accuracies as a csv file
+    pd.DataFrame(history.history).to_csv("../data/model_history.csv")
+    
     print("Saving complete. Now plotting the model's losses and accuracies.")
     
     loss_plotter(history)

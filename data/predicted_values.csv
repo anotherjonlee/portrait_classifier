@@ -1,1372 +1,1372 @@
-,y_test,y_pred
-0,0,0
-1,0,0
-2,0,0
-3,0,0
-4,0,0
-5,0,0
-6,0,0
-7,0,0
-8,0,0
-9,0,0
-10,0,0
-11,0,0
-12,0,0
-13,0,0
-14,0,0
-15,0,9
-16,0,0
-17,0,0
-18,0,0
-19,0,0
-20,0,0
-21,0,0
-22,0,7
-23,0,0
-24,0,9
-25,0,0
-26,0,0
-27,0,0
-28,0,0
-29,0,0
-30,0,0
-31,0,0
-32,0,0
-33,0,7
-34,0,0
-35,0,0
-36,0,0
-37,0,9
-38,0,0
-39,0,0
-40,0,0
-41,0,0
-42,0,7
-43,0,0
-44,0,0
-45,0,0
-46,0,0
-47,0,0
-48,0,0
-49,0,0
-50,0,0
-51,0,0
-52,0,0
-53,0,0
-54,0,0
-55,0,0
-56,0,0
-57,0,0
-58,0,0
-59,0,0
-60,0,0
-61,0,0
-62,0,0
-63,0,0
-64,0,0
-65,0,0
-66,0,0
-67,0,7
-68,0,9
-69,0,0
-70,0,0
-71,0,0
-72,0,0
-73,0,0
-74,0,0
-75,0,0
-76,0,0
-77,0,0
-78,0,0
-79,0,0
-80,0,0
-81,0,0
-82,0,0
-83,0,0
-84,0,0
-85,0,0
-86,0,0
-87,0,0
-88,0,0
-89,0,0
-90,0,0
-91,0,0
-92,0,0
-93,0,0
-94,0,7
-95,0,0
-96,0,0
-97,0,0
-98,0,0
-99,0,0
-100,0,0
-101,0,0
-102,0,0
-103,0,0
-104,0,0
-105,0,0
-106,0,0
-107,0,0
-108,0,0
-109,0,9
-110,0,0
-111,0,0
-112,0,0
-113,0,0
-114,0,0
-115,0,9
-116,0,0
-117,0,7
-118,0,0
-119,0,0
-120,0,0
-121,0,0
-122,0,0
-123,1,1
-124,1,1
-125,1,3
-126,1,1
-127,1,1
-128,1,1
-129,1,1
-130,1,1
-131,1,1
-132,1,1
-133,1,8
-134,1,1
-135,1,1
-136,1,1
-137,1,1
-138,1,1
-139,1,3
-140,1,1
-141,1,1
-142,1,1
-143,1,1
-144,1,1
-145,1,1
-146,1,1
-147,1,1
-148,1,2
-149,1,1
-150,1,1
-151,1,1
-152,1,2
-153,1,1
-154,1,1
-155,1,1
-156,1,1
-157,1,1
-158,1,1
-159,1,1
-160,1,1
-161,1,1
-162,1,2
-163,1,1
-164,1,2
-165,1,1
-166,1,1
-167,1,1
-168,1,3
-169,1,3
-170,1,1
-171,1,1
-172,1,1
-173,1,1
-174,1,1
-175,1,1
-176,1,1
-177,1,1
-178,1,2
-179,1,1
-180,1,1
-181,1,1
-182,1,1
-183,1,1
-184,1,1
-185,1,1
-186,1,1
-187,1,1
-188,1,1
-189,1,1
-190,1,1
-191,1,1
-192,1,1
-193,1,1
-194,1,1
-195,1,1
-196,1,1
-197,1,1
-198,1,2
-199,1,1
-200,1,2
-201,1,3
-202,1,1
-203,1,1
-204,1,1
-205,1,1
-206,1,1
-207,1,1
-208,1,1
-209,1,1
-210,1,1
-211,1,8
-212,1,1
-213,1,1
-214,1,1
-215,1,8
-216,1,8
-217,1,1
-218,1,1
-219,1,1
-220,1,1
-221,1,1
-222,1,1
-223,1,1
-224,1,1
-225,1,1
-226,1,1
-227,1,1
-228,1,1
-229,1,1
-230,1,1
-231,1,1
-232,1,1
-233,1,3
-234,1,1
-235,1,1
-236,1,3
-237,1,3
-238,1,1
-239,2,3
-240,2,7
-241,2,2
-242,2,8
-243,2,6
-244,2,2
-245,2,2
-246,2,2
-247,2,2
-248,2,2
-249,2,1
-250,2,2
-251,2,2
-252,2,2
-253,2,2
-254,2,2
-255,2,2
-256,2,2
-257,2,2
-258,2,2
-259,2,2
-260,2,2
-261,2,2
-262,2,2
-263,2,2
-264,2,2
-265,2,2
-266,2,2
-267,2,2
-268,2,8
-269,2,2
-270,2,2
-271,2,2
-272,2,2
-273,2,2
-274,2,2
-275,2,1
-276,2,3
-277,2,2
-278,2,2
-279,2,3
-280,2,2
-281,2,2
-282,2,2
-283,2,2
-284,2,2
-285,2,2
-286,2,2
-287,2,2
-288,2,8
-289,2,2
-290,2,3
-291,2,2
-292,2,3
-293,2,2
-294,2,2
-295,2,2
-296,2,2
-297,2,2
-298,2,2
-299,2,2
-300,2,2
-301,2,2
-302,2,2
-303,2,2
-304,2,2
-305,2,1
-306,2,3
-307,2,2
-308,2,2
-309,2,2
-310,2,2
-311,2,2
-312,2,5
-313,2,2
-314,2,2
-315,2,2
-316,2,2
-317,2,2
-318,2,2
-319,2,2
-320,2,10
-321,2,11
-322,2,2
-323,2,2
-324,2,2
-325,2,2
-326,2,3
-327,2,2
-328,2,2
-329,2,2
-330,2,3
-331,2,8
-332,2,1
-333,2,3
-334,2,3
-335,2,3
-336,2,3
-337,2,1
-338,2,1
-339,2,1
-340,2,3
-341,2,2
-342,2,2
-343,2,8
-344,2,3
-345,2,2
-346,2,2
-347,2,3
-348,2,7
-349,2,2
-350,2,8
-351,2,6
-352,2,1
-353,2,2
-354,2,2
-355,2,2
-356,2,2
-357,2,2
-358,2,1
-359,2,3
-360,2,3
-361,2,3
-362,2,1
-363,2,1
-364,2,1
-365,2,3
-366,2,2
-367,2,8
-368,3,3
-369,3,3
-370,3,3
-371,3,3
-372,3,2
-373,3,3
-374,3,2
-375,3,2
-376,3,3
-377,3,1
-378,3,3
-379,3,2
-380,3,3
-381,3,2
-382,3,3
-383,3,2
-384,3,2
-385,3,2
-386,3,2
-387,3,3
-388,3,3
-389,3,2
-390,3,3
-391,3,3
-392,3,3
-393,3,3
-394,3,2
-395,3,3
-396,3,3
-397,3,3
-398,3,3
-399,3,3
-400,3,3
-401,3,3
-402,3,1
-403,3,3
-404,3,3
-405,3,3
-406,3,3
-407,3,3
-408,3,3
-409,3,3
-410,3,3
-411,3,3
-412,3,3
-413,3,3
-414,3,3
-415,3,3
-416,3,3
-417,3,3
-418,3,2
-419,3,3
-420,3,3
-421,3,3
-422,3,3
-423,3,3
-424,3,3
-425,3,3
-426,3,3
-427,3,3
-428,3,3
-429,3,3
-430,3,3
-431,3,3
-432,3,3
-433,3,3
-434,3,3
-435,3,3
-436,3,3
-437,3,3
-438,3,3
-439,3,1
-440,3,3
-441,3,3
-442,3,3
-443,3,3
-444,3,3
-445,3,3
-446,3,3
-447,3,3
-448,3,3
-449,3,3
-450,3,3
-451,3,3
-452,3,3
-453,3,2
-454,3,3
-455,3,3
-456,3,2
-457,3,3
-458,3,1
-459,3,3
-460,3,3
-461,3,3
-462,3,3
-463,3,3
-464,3,3
-465,3,1
-466,3,3
-467,3,3
-468,3,3
-469,3,7
-470,3,3
-471,3,1
-472,3,3
-473,3,3
-474,3,3
-475,3,3
-476,3,3
-477,3,3
-478,3,3
-479,3,3
-480,3,3
-481,3,3
-482,3,2
-483,3,2
-484,3,3
-485,3,3
-486,4,4
-487,4,4
-488,4,4
-489,4,5
-490,4,4
-491,4,4
-492,4,4
-493,4,4
-494,4,4
-495,4,4
-496,4,4
-497,4,4
-498,4,4
-499,4,4
-500,4,4
-501,4,10
-502,4,4
-503,4,5
-504,4,4
-505,4,5
-506,4,4
-507,4,4
-508,4,4
-509,4,4
-510,4,10
-511,4,5
-512,4,4
-513,4,10
-514,4,4
-515,4,4
-516,4,4
-517,4,10
-518,4,4
-519,4,4
-520,4,4
-521,4,5
-522,4,4
-523,4,4
-524,4,4
-525,4,4
-526,4,4
-527,4,4
-528,4,4
-529,4,4
-530,4,4
-531,4,4
-532,4,4
-533,4,4
-534,4,4
-535,4,4
-536,4,4
-537,4,4
-538,4,8
-539,4,5
-540,4,4
-541,4,4
-542,4,4
-543,4,4
-544,4,6
-545,4,4
-546,4,4
-547,4,4
-548,4,4
-549,4,4
-550,4,4
-551,4,4
-552,4,10
-553,4,4
-554,4,4
-555,4,4
-556,4,4
-557,4,4
-558,4,4
-559,4,4
-560,4,4
-561,4,2
-562,4,10
-563,4,4
-564,4,4
-565,4,3
-566,4,4
-567,4,4
-568,4,4
-569,4,4
-570,4,4
-571,4,4
-572,4,4
-573,4,5
-574,4,4
-575,4,4
-576,4,4
-577,4,4
-578,5,5
-579,5,10
-580,5,4
-581,5,5
-582,5,10
-583,5,8
-584,5,5
-585,5,5
-586,5,6
-587,5,5
-588,5,5
-589,5,5
-590,5,10
-591,5,5
-592,5,10
-593,5,5
-594,5,5
-595,5,5
-596,5,5
-597,5,5
-598,5,5
-599,5,10
-600,5,5
-601,5,10
-602,5,5
-603,5,5
-604,5,5
-605,5,5
-606,5,5
-607,5,5
-608,5,5
-609,5,5
-610,5,5
-611,5,5
-612,5,5
-613,5,5
-614,5,10
-615,5,10
-616,5,5
-617,5,5
-618,5,5
-619,5,5
-620,5,5
-621,5,5
-622,5,5
-623,5,5
-624,5,5
-625,5,5
-626,5,5
-627,5,5
-628,5,5
-629,5,5
-630,5,5
-631,5,10
-632,5,5
-633,5,4
-634,5,5
-635,5,8
-636,5,8
-637,5,5
-638,5,4
-639,5,4
-640,5,10
-641,5,5
-642,5,5
-643,5,5
-644,5,5
-645,5,5
-646,5,5
-647,5,5
-648,5,5
-649,5,5
-650,5,5
-651,5,5
-652,5,5
-653,5,2
-654,5,8
-655,5,8
-656,5,5
-657,5,5
-658,5,5
-659,5,5
-660,5,5
-661,5,5
-662,5,5
-663,5,5
-664,5,5
-665,5,5
-666,5,5
-667,5,5
-668,5,5
-669,5,5
-670,5,5
-671,5,5
-672,5,5
-673,5,5
-674,5,5
-675,5,5
-676,5,5
-677,5,5
-678,5,5
-679,5,5
-680,5,5
-681,5,5
-682,5,5
-683,5,5
-684,5,5
-685,5,10
-686,5,4
-687,5,5
-688,5,10
-689,5,5
-690,5,5
-691,5,5
-692,6,6
-693,6,6
-694,6,6
-695,6,6
-696,6,6
-697,6,6
-698,6,6
-699,6,6
-700,6,6
-701,6,6
-702,6,6
-703,6,6
-704,6,6
-705,6,6
-706,6,6
-707,6,6
-708,6,6
-709,6,6
-710,6,6
-711,6,6
-712,6,6
-713,6,6
-714,6,6
-715,6,6
-716,6,6
-717,6,6
-718,6,6
-719,6,6
-720,6,6
-721,6,6
-722,6,6
-723,6,6
-724,6,6
-725,6,6
-726,6,6
-727,6,6
-728,6,6
-729,6,6
-730,6,6
-731,6,6
-732,6,6
-733,6,6
-734,6,6
-735,6,6
-736,6,6
-737,6,6
-738,6,6
-739,6,6
-740,6,6
-741,6,6
-742,6,6
-743,6,6
-744,6,6
-745,6,6
-746,6,6
-747,6,3
-748,6,6
-749,6,6
-750,6,6
-751,6,6
-752,6,6
-753,6,6
-754,6,6
-755,6,6
-756,6,6
-757,6,6
-758,6,6
-759,6,6
-760,6,6
-761,6,6
-762,6,6
-763,6,6
-764,6,6
-765,6,6
-766,6,6
-767,6,6
-768,6,6
-769,6,6
-770,6,6
-771,6,6
-772,6,6
-773,6,6
-774,6,6
-775,6,6
-776,6,6
-777,6,6
-778,6,6
-779,6,6
-780,6,6
-781,6,6
-782,6,6
-783,6,6
-784,6,6
-785,6,6
-786,6,6
-787,6,6
-788,6,6
-789,6,6
-790,6,6
-791,6,6
-792,6,6
-793,6,6
-794,6,6
-795,6,6
-796,6,6
-797,6,6
-798,6,6
-799,6,6
-800,6,6
-801,6,6
-802,6,4
-803,6,6
-804,6,6
-805,6,6
-806,6,6
-807,6,6
-808,6,6
-809,6,6
-810,6,6
-811,6,3
-812,6,6
-813,6,6
-814,6,6
-815,6,6
-816,6,6
-817,6,6
-818,6,6
-819,6,6
-820,6,6
-821,6,6
-822,6,6
-823,6,6
-824,6,6
-825,6,6
-826,6,6
-827,6,6
-828,6,6
-829,6,6
-830,6,6
-831,6,6
-832,7,7
-833,7,7
-834,7,7
-835,7,1
-836,7,7
-837,7,7
-838,7,7
-839,7,7
-840,7,9
-841,7,7
-842,7,7
-843,7,0
-844,7,9
-845,7,7
-846,7,7
-847,7,7
-848,7,7
-849,7,7
-850,7,7
-851,7,7
-852,7,7
-853,7,7
-854,7,7
-855,7,7
-856,7,7
-857,7,7
-858,7,7
-859,7,0
-860,7,7
-861,7,7
-862,7,7
-863,7,7
-864,7,7
-865,7,7
-866,7,7
-867,7,7
-868,7,7
-869,7,7
-870,7,0
-871,7,7
-872,7,7
-873,7,7
-874,7,7
-875,7,7
-876,7,7
-877,7,7
-878,7,7
-879,7,0
-880,7,7
-881,7,7
-882,7,0
-883,7,7
-884,7,7
-885,7,7
-886,7,0
-887,7,7
-888,7,7
-889,7,11
-890,7,7
-891,7,9
-892,7,7
-893,7,7
-894,7,7
-895,7,7
-896,7,7
-897,7,7
-898,7,7
-899,7,7
-900,7,7
-901,7,7
-902,7,7
-903,7,7
-904,7,7
-905,7,7
-906,7,7
-907,7,7
-908,7,11
-909,7,7
-910,7,7
-911,7,7
-912,7,7
-913,7,7
-914,7,7
-915,7,7
-916,7,7
-917,7,7
-918,7,7
-919,7,0
-920,7,7
-921,7,7
-922,7,3
-923,7,7
-924,7,7
-925,7,7
-926,7,7
-927,7,0
-928,7,7
-929,7,7
-930,7,7
-931,7,0
-932,7,7
-933,7,7
-934,8,1
-935,8,8
-936,8,8
-937,8,5
-938,8,8
-939,8,8
-940,8,1
-941,8,8
-942,8,8
-943,8,8
-944,8,8
-945,8,8
-946,8,8
-947,8,8
-948,8,5
-949,8,8
-950,8,8
-951,8,8
-952,8,8
-953,8,8
-954,8,8
-955,8,8
-956,8,8
-957,8,8
-958,8,8
-959,8,8
-960,8,1
-961,8,1
-962,8,8
-963,8,5
-964,8,8
-965,8,8
-966,8,10
-967,8,1
-968,8,8
-969,8,8
-970,8,8
-971,8,8
-972,8,8
-973,8,8
-974,8,5
-975,8,8
-976,8,1
-977,8,8
-978,8,8
-979,8,8
-980,8,8
-981,8,8
-982,8,8
-983,8,8
-984,8,1
-985,8,8
-986,8,8
-987,8,8
-988,8,8
-989,8,8
-990,8,8
-991,8,8
-992,8,8
-993,8,8
-994,8,8
-995,8,8
-996,8,8
-997,8,8
-998,8,8
-999,8,8
-1000,8,8
-1001,8,8
-1002,8,8
-1003,8,8
-1004,8,8
-1005,8,8
-1006,8,8
-1007,8,5
-1008,8,8
-1009,8,8
-1010,8,8
-1011,8,8
-1012,8,8
-1013,8,8
-1014,8,8
-1015,8,1
-1016,8,8
-1017,8,8
-1018,8,8
-1019,8,8
-1020,8,8
-1021,8,8
-1022,8,8
-1023,8,8
-1024,8,8
-1025,8,8
-1026,8,8
-1027,8,8
-1028,8,5
-1029,8,8
-1030,8,10
-1031,8,8
-1032,8,8
-1033,8,8
-1034,8,8
-1035,8,8
-1036,8,8
-1037,8,8
-1038,8,8
-1039,8,5
-1040,8,8
-1041,8,1
-1042,8,8
-1043,8,5
-1044,8,1
-1045,8,8
-1046,8,8
-1047,8,8
-1048,8,8
-1049,8,8
-1050,8,8
-1051,8,8
-1052,8,8
-1053,8,5
-1054,9,9
-1055,9,9
-1056,9,0
-1057,9,7
-1058,9,0
-1059,9,9
-1060,9,0
-1061,9,9
-1062,9,9
-1063,9,7
-1064,9,9
-1065,9,9
-1066,9,9
-1067,9,9
-1068,9,9
-1069,9,9
-1070,9,9
-1071,9,9
-1072,9,7
-1073,9,0
-1074,9,9
-1075,9,9
-1076,9,9
-1077,9,6
-1078,9,7
-1079,9,0
-1080,9,0
-1081,9,9
-1082,9,9
-1083,9,9
-1084,9,9
-1085,9,9
-1086,9,9
-1087,9,7
-1088,9,9
-1089,9,9
-1090,9,9
-1091,9,9
-1092,9,9
-1093,9,9
-1094,9,9
-1095,9,9
-1096,9,9
-1097,9,9
-1098,9,9
-1099,9,9
-1100,9,9
-1101,9,9
-1102,9,9
-1103,9,9
-1104,9,9
-1105,9,9
-1106,9,9
-1107,9,9
-1108,9,9
-1109,9,9
-1110,9,9
-1111,9,9
-1112,9,9
-1113,9,9
-1114,9,9
-1115,9,9
-1116,9,9
-1117,9,9
-1118,9,9
-1119,9,9
-1120,9,9
-1121,9,9
-1122,9,0
-1123,9,9
-1124,9,9
-1125,9,9
-1126,9,9
-1127,9,9
-1128,9,9
-1129,9,9
-1130,9,9
-1131,9,0
-1132,9,9
-1133,9,9
-1134,9,9
-1135,9,2
-1136,9,0
-1137,9,9
-1138,9,11
-1139,9,9
-1140,9,9
-1141,9,9
-1142,9,9
-1143,9,9
-1144,9,9
-1145,9,9
-1146,9,9
-1147,9,9
-1148,9,9
-1149,9,9
-1150,9,9
-1151,9,9
-1152,9,9
-1153,9,9
-1154,9,9
-1155,9,9
-1156,9,9
-1157,9,9
-1158,9,9
-1159,9,9
-1160,9,9
-1161,9,9
-1162,9,9
-1163,9,9
-1164,9,11
-1165,9,0
-1166,9,9
-1167,9,9
-1168,9,9
-1169,9,6
-1170,10,10
-1171,10,10
-1172,10,3
-1173,10,10
-1174,10,10
-1175,10,10
-1176,10,5
-1177,10,10
-1178,10,10
-1179,10,10
-1180,10,10
-1181,10,10
-1182,10,5
-1183,10,10
-1184,10,10
-1185,10,10
-1186,10,10
-1187,10,4
-1188,10,10
-1189,10,10
-1190,10,5
-1191,10,10
-1192,10,5
-1193,10,10
-1194,10,4
-1195,10,5
-1196,10,10
-1197,10,5
-1198,10,10
-1199,10,4
-1200,10,10
-1201,10,10
-1202,10,10
-1203,10,10
-1204,10,10
-1205,10,10
-1206,10,10
-1207,10,4
-1208,10,10
-1209,10,10
-1210,10,10
-1211,10,10
-1212,10,10
-1213,10,8
-1214,10,10
-1215,10,10
-1216,10,5
-1217,10,10
-1218,10,10
-1219,10,10
-1220,10,10
-1221,10,10
-1222,10,10
-1223,10,10
-1224,10,10
-1225,10,10
-1226,10,10
-1227,10,10
-1228,10,10
-1229,10,10
-1230,10,10
-1231,10,10
-1232,10,10
-1233,10,10
-1234,10,10
-1235,10,10
-1236,10,10
-1237,10,10
-1238,10,10
-1239,10,10
-1240,10,10
-1241,10,5
-1242,10,10
-1243,10,10
-1244,10,10
-1245,10,10
-1246,10,10
-1247,10,5
-1248,10,10
-1249,10,5
-1250,10,10
-1251,10,10
-1252,10,3
-1253,10,10
-1254,10,10
-1255,10,10
-1256,10,5
-1257,10,10
-1258,11,11
-1259,11,11
-1260,11,11
-1261,11,4
-1262,11,11
-1263,11,7
-1264,11,11
-1265,11,11
-1266,11,11
-1267,11,7
-1268,11,11
-1269,11,11
-1270,11,7
-1271,11,11
-1272,11,11
-1273,11,11
-1274,11,7
-1275,11,11
-1276,11,1
-1277,11,11
-1278,11,11
-1279,11,11
-1280,11,11
-1281,11,11
-1282,11,11
-1283,11,11
-1284,11,11
-1285,11,11
-1286,11,11
-1287,11,11
-1288,11,11
-1289,11,11
-1290,11,11
-1291,11,11
-1292,11,11
-1293,11,11
-1294,11,11
-1295,11,11
-1296,11,11
-1297,11,0
-1298,11,11
-1299,11,11
-1300,11,11
-1301,11,11
-1302,11,11
-1303,11,11
-1304,11,7
-1305,11,11
-1306,11,11
-1307,11,11
-1308,11,11
-1309,11,11
-1310,11,11
-1311,11,11
-1312,11,11
-1313,11,11
-1314,11,11
-1315,11,11
-1316,11,11
-1317,11,11
-1318,11,11
-1319,11,11
-1320,11,11
-1321,11,11
-1322,11,11
-1323,11,11
-1324,11,11
-1325,11,11
-1326,11,11
-1327,11,11
-1328,11,11
-1329,11,11
-1330,11,11
-1331,11,11
-1332,11,11
-1333,11,11
-1334,11,11
-1335,11,11
-1336,11,11
-1337,11,11
-1338,11,11
-1339,11,11
-1340,11,11
-1341,11,11
-1342,11,11
-1343,11,11
-1344,11,11
-1345,11,11
-1346,11,11
-1347,11,11
-1348,11,11
-1349,11,11
-1350,11,11
-1351,11,11
-1352,11,11
-1353,11,11
-1354,11,11
-1355,11,11
-1356,11,11
-1357,11,11
-1358,11,11
-1359,11,11
-1360,11,11
-1361,11,11
-1362,11,7
-1363,11,11
-1364,11,11
-1365,11,11
-1366,11,11
-1367,11,11
-1368,11,11
-1369,11,11
-1370,11,11
+,y_true,y_pred,label_true,label_pred
+0,0,0,Antoninus Pius,Antoninus Pius
+1,0,0,Antoninus Pius,Antoninus Pius
+2,0,0,Antoninus Pius,Antoninus Pius
+3,0,0,Antoninus Pius,Antoninus Pius
+4,0,0,Antoninus Pius,Antoninus Pius
+5,0,0,Antoninus Pius,Antoninus Pius
+6,0,0,Antoninus Pius,Antoninus Pius
+7,0,0,Antoninus Pius,Antoninus Pius
+8,0,0,Antoninus Pius,Antoninus Pius
+9,0,0,Antoninus Pius,Antoninus Pius
+10,0,0,Antoninus Pius,Antoninus Pius
+11,0,0,Antoninus Pius,Antoninus Pius
+12,0,0,Antoninus Pius,Antoninus Pius
+13,0,0,Antoninus Pius,Antoninus Pius
+14,0,0,Antoninus Pius,Antoninus Pius
+15,0,9,Antoninus Pius,Marcus Aurelius
+16,0,0,Antoninus Pius,Antoninus Pius
+17,0,0,Antoninus Pius,Antoninus Pius
+18,0,0,Antoninus Pius,Antoninus Pius
+19,0,0,Antoninus Pius,Antoninus Pius
+20,0,0,Antoninus Pius,Antoninus Pius
+21,0,0,Antoninus Pius,Antoninus Pius
+22,0,7,Antoninus Pius,Hadrian
+23,0,0,Antoninus Pius,Antoninus Pius
+24,0,9,Antoninus Pius,Marcus Aurelius
+25,0,0,Antoninus Pius,Antoninus Pius
+26,0,0,Antoninus Pius,Antoninus Pius
+27,0,0,Antoninus Pius,Antoninus Pius
+28,0,0,Antoninus Pius,Antoninus Pius
+29,0,0,Antoninus Pius,Antoninus Pius
+30,0,0,Antoninus Pius,Antoninus Pius
+31,0,0,Antoninus Pius,Antoninus Pius
+32,0,0,Antoninus Pius,Antoninus Pius
+33,0,7,Antoninus Pius,Hadrian
+34,0,0,Antoninus Pius,Antoninus Pius
+35,0,0,Antoninus Pius,Antoninus Pius
+36,0,0,Antoninus Pius,Antoninus Pius
+37,0,9,Antoninus Pius,Marcus Aurelius
+38,0,0,Antoninus Pius,Antoninus Pius
+39,0,0,Antoninus Pius,Antoninus Pius
+40,0,0,Antoninus Pius,Antoninus Pius
+41,0,0,Antoninus Pius,Antoninus Pius
+42,0,7,Antoninus Pius,Hadrian
+43,0,0,Antoninus Pius,Antoninus Pius
+44,0,0,Antoninus Pius,Antoninus Pius
+45,0,0,Antoninus Pius,Antoninus Pius
+46,0,0,Antoninus Pius,Antoninus Pius
+47,0,0,Antoninus Pius,Antoninus Pius
+48,0,0,Antoninus Pius,Antoninus Pius
+49,0,0,Antoninus Pius,Antoninus Pius
+50,0,0,Antoninus Pius,Antoninus Pius
+51,0,0,Antoninus Pius,Antoninus Pius
+52,0,0,Antoninus Pius,Antoninus Pius
+53,0,0,Antoninus Pius,Antoninus Pius
+54,0,0,Antoninus Pius,Antoninus Pius
+55,0,0,Antoninus Pius,Antoninus Pius
+56,0,0,Antoninus Pius,Antoninus Pius
+57,0,0,Antoninus Pius,Antoninus Pius
+58,0,0,Antoninus Pius,Antoninus Pius
+59,0,0,Antoninus Pius,Antoninus Pius
+60,0,0,Antoninus Pius,Antoninus Pius
+61,0,0,Antoninus Pius,Antoninus Pius
+62,0,0,Antoninus Pius,Antoninus Pius
+63,0,0,Antoninus Pius,Antoninus Pius
+64,0,0,Antoninus Pius,Antoninus Pius
+65,0,0,Antoninus Pius,Antoninus Pius
+66,0,0,Antoninus Pius,Antoninus Pius
+67,0,7,Antoninus Pius,Hadrian
+68,0,9,Antoninus Pius,Marcus Aurelius
+69,0,0,Antoninus Pius,Antoninus Pius
+70,0,0,Antoninus Pius,Antoninus Pius
+71,0,0,Antoninus Pius,Antoninus Pius
+72,0,0,Antoninus Pius,Antoninus Pius
+73,0,0,Antoninus Pius,Antoninus Pius
+74,0,0,Antoninus Pius,Antoninus Pius
+75,0,0,Antoninus Pius,Antoninus Pius
+76,0,0,Antoninus Pius,Antoninus Pius
+77,0,0,Antoninus Pius,Antoninus Pius
+78,0,0,Antoninus Pius,Antoninus Pius
+79,0,0,Antoninus Pius,Antoninus Pius
+80,0,0,Antoninus Pius,Antoninus Pius
+81,0,0,Antoninus Pius,Antoninus Pius
+82,0,0,Antoninus Pius,Antoninus Pius
+83,0,0,Antoninus Pius,Antoninus Pius
+84,0,0,Antoninus Pius,Antoninus Pius
+85,0,0,Antoninus Pius,Antoninus Pius
+86,0,0,Antoninus Pius,Antoninus Pius
+87,0,0,Antoninus Pius,Antoninus Pius
+88,0,0,Antoninus Pius,Antoninus Pius
+89,0,0,Antoninus Pius,Antoninus Pius
+90,0,0,Antoninus Pius,Antoninus Pius
+91,0,0,Antoninus Pius,Antoninus Pius
+92,0,0,Antoninus Pius,Antoninus Pius
+93,0,0,Antoninus Pius,Antoninus Pius
+94,0,7,Antoninus Pius,Hadrian
+95,0,0,Antoninus Pius,Antoninus Pius
+96,0,0,Antoninus Pius,Antoninus Pius
+97,0,0,Antoninus Pius,Antoninus Pius
+98,0,0,Antoninus Pius,Antoninus Pius
+99,0,0,Antoninus Pius,Antoninus Pius
+100,0,0,Antoninus Pius,Antoninus Pius
+101,0,0,Antoninus Pius,Antoninus Pius
+102,0,0,Antoninus Pius,Antoninus Pius
+103,0,0,Antoninus Pius,Antoninus Pius
+104,0,0,Antoninus Pius,Antoninus Pius
+105,0,0,Antoninus Pius,Antoninus Pius
+106,0,0,Antoninus Pius,Antoninus Pius
+107,0,0,Antoninus Pius,Antoninus Pius
+108,0,0,Antoninus Pius,Antoninus Pius
+109,0,9,Antoninus Pius,Marcus Aurelius
+110,0,0,Antoninus Pius,Antoninus Pius
+111,0,0,Antoninus Pius,Antoninus Pius
+112,0,0,Antoninus Pius,Antoninus Pius
+113,0,0,Antoninus Pius,Antoninus Pius
+114,0,0,Antoninus Pius,Antoninus Pius
+115,0,9,Antoninus Pius,Marcus Aurelius
+116,0,0,Antoninus Pius,Antoninus Pius
+117,0,7,Antoninus Pius,Hadrian
+118,0,0,Antoninus Pius,Antoninus Pius
+119,0,0,Antoninus Pius,Antoninus Pius
+120,0,0,Antoninus Pius,Antoninus Pius
+121,0,0,Antoninus Pius,Antoninus Pius
+122,0,0,Antoninus Pius,Antoninus Pius
+123,1,1,Constantine I,Constantine I
+124,1,1,Constantine I,Constantine I
+125,1,3,Constantine I,Constantius II
+126,1,1,Constantine I,Constantine I
+127,1,1,Constantine I,Constantine I
+128,1,1,Constantine I,Constantine I
+129,1,1,Constantine I,Constantine I
+130,1,1,Constantine I,Constantine I
+131,1,1,Constantine I,Constantine I
+132,1,1,Constantine I,Constantine I
+133,1,8,Constantine I,Licinius
+134,1,1,Constantine I,Constantine I
+135,1,1,Constantine I,Constantine I
+136,1,1,Constantine I,Constantine I
+137,1,1,Constantine I,Constantine I
+138,1,1,Constantine I,Constantine I
+139,1,3,Constantine I,Constantius II
+140,1,1,Constantine I,Constantine I
+141,1,1,Constantine I,Constantine I
+142,1,1,Constantine I,Constantine I
+143,1,1,Constantine I,Constantine I
+144,1,1,Constantine I,Constantine I
+145,1,1,Constantine I,Constantine I
+146,1,1,Constantine I,Constantine I
+147,1,1,Constantine I,Constantine I
+148,1,2,Constantine I,Constantine II
+149,1,1,Constantine I,Constantine I
+150,1,1,Constantine I,Constantine I
+151,1,1,Constantine I,Constantine I
+152,1,2,Constantine I,Constantine II
+153,1,1,Constantine I,Constantine I
+154,1,1,Constantine I,Constantine I
+155,1,1,Constantine I,Constantine I
+156,1,1,Constantine I,Constantine I
+157,1,1,Constantine I,Constantine I
+158,1,1,Constantine I,Constantine I
+159,1,1,Constantine I,Constantine I
+160,1,1,Constantine I,Constantine I
+161,1,1,Constantine I,Constantine I
+162,1,2,Constantine I,Constantine II
+163,1,1,Constantine I,Constantine I
+164,1,2,Constantine I,Constantine II
+165,1,1,Constantine I,Constantine I
+166,1,1,Constantine I,Constantine I
+167,1,1,Constantine I,Constantine I
+168,1,3,Constantine I,Constantius II
+169,1,3,Constantine I,Constantius II
+170,1,1,Constantine I,Constantine I
+171,1,1,Constantine I,Constantine I
+172,1,1,Constantine I,Constantine I
+173,1,1,Constantine I,Constantine I
+174,1,1,Constantine I,Constantine I
+175,1,1,Constantine I,Constantine I
+176,1,1,Constantine I,Constantine I
+177,1,1,Constantine I,Constantine I
+178,1,2,Constantine I,Constantine II
+179,1,1,Constantine I,Constantine I
+180,1,1,Constantine I,Constantine I
+181,1,1,Constantine I,Constantine I
+182,1,1,Constantine I,Constantine I
+183,1,1,Constantine I,Constantine I
+184,1,1,Constantine I,Constantine I
+185,1,1,Constantine I,Constantine I
+186,1,1,Constantine I,Constantine I
+187,1,1,Constantine I,Constantine I
+188,1,1,Constantine I,Constantine I
+189,1,1,Constantine I,Constantine I
+190,1,1,Constantine I,Constantine I
+191,1,1,Constantine I,Constantine I
+192,1,1,Constantine I,Constantine I
+193,1,1,Constantine I,Constantine I
+194,1,1,Constantine I,Constantine I
+195,1,1,Constantine I,Constantine I
+196,1,1,Constantine I,Constantine I
+197,1,1,Constantine I,Constantine I
+198,1,2,Constantine I,Constantine II
+199,1,1,Constantine I,Constantine I
+200,1,2,Constantine I,Constantine II
+201,1,3,Constantine I,Constantius II
+202,1,1,Constantine I,Constantine I
+203,1,1,Constantine I,Constantine I
+204,1,1,Constantine I,Constantine I
+205,1,1,Constantine I,Constantine I
+206,1,1,Constantine I,Constantine I
+207,1,1,Constantine I,Constantine I
+208,1,1,Constantine I,Constantine I
+209,1,1,Constantine I,Constantine I
+210,1,1,Constantine I,Constantine I
+211,1,8,Constantine I,Licinius
+212,1,1,Constantine I,Constantine I
+213,1,1,Constantine I,Constantine I
+214,1,1,Constantine I,Constantine I
+215,1,8,Constantine I,Licinius
+216,1,8,Constantine I,Licinius
+217,1,1,Constantine I,Constantine I
+218,1,1,Constantine I,Constantine I
+219,1,1,Constantine I,Constantine I
+220,1,1,Constantine I,Constantine I
+221,1,1,Constantine I,Constantine I
+222,1,1,Constantine I,Constantine I
+223,1,1,Constantine I,Constantine I
+224,1,1,Constantine I,Constantine I
+225,1,1,Constantine I,Constantine I
+226,1,1,Constantine I,Constantine I
+227,1,1,Constantine I,Constantine I
+228,1,1,Constantine I,Constantine I
+229,1,1,Constantine I,Constantine I
+230,1,1,Constantine I,Constantine I
+231,1,1,Constantine I,Constantine I
+232,1,1,Constantine I,Constantine I
+233,1,3,Constantine I,Constantius II
+234,1,1,Constantine I,Constantine I
+235,1,1,Constantine I,Constantine I
+236,1,3,Constantine I,Constantius II
+237,1,3,Constantine I,Constantius II
+238,1,1,Constantine I,Constantine I
+239,2,3,Constantine II,Constantius II
+240,2,7,Constantine II,Hadrian
+241,2,2,Constantine II,Constantine II
+242,2,8,Constantine II,Licinius
+243,2,6,Constantine II,Gallienus
+244,2,2,Constantine II,Constantine II
+245,2,2,Constantine II,Constantine II
+246,2,2,Constantine II,Constantine II
+247,2,2,Constantine II,Constantine II
+248,2,2,Constantine II,Constantine II
+249,2,1,Constantine II,Constantine I
+250,2,2,Constantine II,Constantine II
+251,2,2,Constantine II,Constantine II
+252,2,2,Constantine II,Constantine II
+253,2,2,Constantine II,Constantine II
+254,2,2,Constantine II,Constantine II
+255,2,2,Constantine II,Constantine II
+256,2,2,Constantine II,Constantine II
+257,2,2,Constantine II,Constantine II
+258,2,2,Constantine II,Constantine II
+259,2,2,Constantine II,Constantine II
+260,2,2,Constantine II,Constantine II
+261,2,2,Constantine II,Constantine II
+262,2,2,Constantine II,Constantine II
+263,2,2,Constantine II,Constantine II
+264,2,2,Constantine II,Constantine II
+265,2,2,Constantine II,Constantine II
+266,2,2,Constantine II,Constantine II
+267,2,2,Constantine II,Constantine II
+268,2,8,Constantine II,Licinius
+269,2,2,Constantine II,Constantine II
+270,2,2,Constantine II,Constantine II
+271,2,2,Constantine II,Constantine II
+272,2,2,Constantine II,Constantine II
+273,2,2,Constantine II,Constantine II
+274,2,2,Constantine II,Constantine II
+275,2,1,Constantine II,Constantine I
+276,2,3,Constantine II,Constantius II
+277,2,2,Constantine II,Constantine II
+278,2,2,Constantine II,Constantine II
+279,2,3,Constantine II,Constantius II
+280,2,2,Constantine II,Constantine II
+281,2,2,Constantine II,Constantine II
+282,2,2,Constantine II,Constantine II
+283,2,2,Constantine II,Constantine II
+284,2,2,Constantine II,Constantine II
+285,2,2,Constantine II,Constantine II
+286,2,2,Constantine II,Constantine II
+287,2,2,Constantine II,Constantine II
+288,2,8,Constantine II,Licinius
+289,2,2,Constantine II,Constantine II
+290,2,3,Constantine II,Constantius II
+291,2,2,Constantine II,Constantine II
+292,2,3,Constantine II,Constantius II
+293,2,2,Constantine II,Constantine II
+294,2,2,Constantine II,Constantine II
+295,2,2,Constantine II,Constantine II
+296,2,2,Constantine II,Constantine II
+297,2,2,Constantine II,Constantine II
+298,2,2,Constantine II,Constantine II
+299,2,2,Constantine II,Constantine II
+300,2,2,Constantine II,Constantine II
+301,2,2,Constantine II,Constantine II
+302,2,2,Constantine II,Constantine II
+303,2,2,Constantine II,Constantine II
+304,2,2,Constantine II,Constantine II
+305,2,1,Constantine II,Constantine I
+306,2,3,Constantine II,Constantius II
+307,2,2,Constantine II,Constantine II
+308,2,2,Constantine II,Constantine II
+309,2,2,Constantine II,Constantine II
+310,2,2,Constantine II,Constantine II
+311,2,2,Constantine II,Constantine II
+312,2,5,Constantine II,Galerius
+313,2,2,Constantine II,Constantine II
+314,2,2,Constantine II,Constantine II
+315,2,2,Constantine II,Constantine II
+316,2,2,Constantine II,Constantine II
+317,2,2,Constantine II,Constantine II
+318,2,2,Constantine II,Constantine II
+319,2,2,Constantine II,Constantine II
+320,2,10,Constantine II,Maximian
+321,2,11,Constantine II,Trajan
+322,2,2,Constantine II,Constantine II
+323,2,2,Constantine II,Constantine II
+324,2,2,Constantine II,Constantine II
+325,2,2,Constantine II,Constantine II
+326,2,3,Constantine II,Constantius II
+327,2,2,Constantine II,Constantine II
+328,2,2,Constantine II,Constantine II
+329,2,2,Constantine II,Constantine II
+330,2,3,Constantine II,Constantius II
+331,2,8,Constantine II,Licinius
+332,2,1,Constantine II,Constantine I
+333,2,3,Constantine II,Constantius II
+334,2,3,Constantine II,Constantius II
+335,2,3,Constantine II,Constantius II
+336,2,3,Constantine II,Constantius II
+337,2,1,Constantine II,Constantine I
+338,2,1,Constantine II,Constantine I
+339,2,1,Constantine II,Constantine I
+340,2,3,Constantine II,Constantius II
+341,2,2,Constantine II,Constantine II
+342,2,2,Constantine II,Constantine II
+343,2,8,Constantine II,Licinius
+344,2,3,Constantine II,Constantius II
+345,2,2,Constantine II,Constantine II
+346,2,2,Constantine II,Constantine II
+347,2,3,Constantine II,Constantius II
+348,2,7,Constantine II,Hadrian
+349,2,2,Constantine II,Constantine II
+350,2,8,Constantine II,Licinius
+351,2,6,Constantine II,Gallienus
+352,2,1,Constantine II,Constantine I
+353,2,2,Constantine II,Constantine II
+354,2,2,Constantine II,Constantine II
+355,2,2,Constantine II,Constantine II
+356,2,2,Constantine II,Constantine II
+357,2,2,Constantine II,Constantine II
+358,2,1,Constantine II,Constantine I
+359,2,3,Constantine II,Constantius II
+360,2,3,Constantine II,Constantius II
+361,2,3,Constantine II,Constantius II
+362,2,1,Constantine II,Constantine I
+363,2,1,Constantine II,Constantine I
+364,2,1,Constantine II,Constantine I
+365,2,3,Constantine II,Constantius II
+366,2,2,Constantine II,Constantine II
+367,2,8,Constantine II,Licinius
+368,3,3,Constantius II,Constantius II
+369,3,3,Constantius II,Constantius II
+370,3,3,Constantius II,Constantius II
+371,3,3,Constantius II,Constantius II
+372,3,2,Constantius II,Constantine II
+373,3,3,Constantius II,Constantius II
+374,3,2,Constantius II,Constantine II
+375,3,2,Constantius II,Constantine II
+376,3,3,Constantius II,Constantius II
+377,3,1,Constantius II,Constantine I
+378,3,3,Constantius II,Constantius II
+379,3,2,Constantius II,Constantine II
+380,3,3,Constantius II,Constantius II
+381,3,2,Constantius II,Constantine II
+382,3,3,Constantius II,Constantius II
+383,3,2,Constantius II,Constantine II
+384,3,2,Constantius II,Constantine II
+385,3,2,Constantius II,Constantine II
+386,3,2,Constantius II,Constantine II
+387,3,3,Constantius II,Constantius II
+388,3,3,Constantius II,Constantius II
+389,3,2,Constantius II,Constantine II
+390,3,3,Constantius II,Constantius II
+391,3,3,Constantius II,Constantius II
+392,3,3,Constantius II,Constantius II
+393,3,3,Constantius II,Constantius II
+394,3,2,Constantius II,Constantine II
+395,3,3,Constantius II,Constantius II
+396,3,3,Constantius II,Constantius II
+397,3,3,Constantius II,Constantius II
+398,3,3,Constantius II,Constantius II
+399,3,3,Constantius II,Constantius II
+400,3,3,Constantius II,Constantius II
+401,3,3,Constantius II,Constantius II
+402,3,1,Constantius II,Constantine I
+403,3,3,Constantius II,Constantius II
+404,3,3,Constantius II,Constantius II
+405,3,3,Constantius II,Constantius II
+406,3,3,Constantius II,Constantius II
+407,3,3,Constantius II,Constantius II
+408,3,3,Constantius II,Constantius II
+409,3,3,Constantius II,Constantius II
+410,3,3,Constantius II,Constantius II
+411,3,3,Constantius II,Constantius II
+412,3,3,Constantius II,Constantius II
+413,3,3,Constantius II,Constantius II
+414,3,3,Constantius II,Constantius II
+415,3,3,Constantius II,Constantius II
+416,3,3,Constantius II,Constantius II
+417,3,3,Constantius II,Constantius II
+418,3,2,Constantius II,Constantine II
+419,3,3,Constantius II,Constantius II
+420,3,3,Constantius II,Constantius II
+421,3,3,Constantius II,Constantius II
+422,3,3,Constantius II,Constantius II
+423,3,3,Constantius II,Constantius II
+424,3,3,Constantius II,Constantius II
+425,3,3,Constantius II,Constantius II
+426,3,3,Constantius II,Constantius II
+427,3,3,Constantius II,Constantius II
+428,3,3,Constantius II,Constantius II
+429,3,3,Constantius II,Constantius II
+430,3,3,Constantius II,Constantius II
+431,3,3,Constantius II,Constantius II
+432,3,3,Constantius II,Constantius II
+433,3,3,Constantius II,Constantius II
+434,3,3,Constantius II,Constantius II
+435,3,3,Constantius II,Constantius II
+436,3,3,Constantius II,Constantius II
+437,3,3,Constantius II,Constantius II
+438,3,3,Constantius II,Constantius II
+439,3,1,Constantius II,Constantine I
+440,3,3,Constantius II,Constantius II
+441,3,3,Constantius II,Constantius II
+442,3,3,Constantius II,Constantius II
+443,3,3,Constantius II,Constantius II
+444,3,3,Constantius II,Constantius II
+445,3,3,Constantius II,Constantius II
+446,3,3,Constantius II,Constantius II
+447,3,3,Constantius II,Constantius II
+448,3,3,Constantius II,Constantius II
+449,3,3,Constantius II,Constantius II
+450,3,3,Constantius II,Constantius II
+451,3,3,Constantius II,Constantius II
+452,3,3,Constantius II,Constantius II
+453,3,2,Constantius II,Constantine II
+454,3,3,Constantius II,Constantius II
+455,3,3,Constantius II,Constantius II
+456,3,2,Constantius II,Constantine II
+457,3,3,Constantius II,Constantius II
+458,3,1,Constantius II,Constantine I
+459,3,3,Constantius II,Constantius II
+460,3,3,Constantius II,Constantius II
+461,3,3,Constantius II,Constantius II
+462,3,3,Constantius II,Constantius II
+463,3,3,Constantius II,Constantius II
+464,3,3,Constantius II,Constantius II
+465,3,1,Constantius II,Constantine I
+466,3,3,Constantius II,Constantius II
+467,3,3,Constantius II,Constantius II
+468,3,3,Constantius II,Constantius II
+469,3,7,Constantius II,Hadrian
+470,3,3,Constantius II,Constantius II
+471,3,1,Constantius II,Constantine I
+472,3,3,Constantius II,Constantius II
+473,3,3,Constantius II,Constantius II
+474,3,3,Constantius II,Constantius II
+475,3,3,Constantius II,Constantius II
+476,3,3,Constantius II,Constantius II
+477,3,3,Constantius II,Constantius II
+478,3,3,Constantius II,Constantius II
+479,3,3,Constantius II,Constantius II
+480,3,3,Constantius II,Constantius II
+481,3,3,Constantius II,Constantius II
+482,3,2,Constantius II,Constantine II
+483,3,2,Constantius II,Constantine II
+484,3,3,Constantius II,Constantius II
+485,3,3,Constantius II,Constantius II
+486,4,4,Diocletian,Diocletian
+487,4,4,Diocletian,Diocletian
+488,4,4,Diocletian,Diocletian
+489,4,5,Diocletian,Galerius
+490,4,4,Diocletian,Diocletian
+491,4,4,Diocletian,Diocletian
+492,4,4,Diocletian,Diocletian
+493,4,4,Diocletian,Diocletian
+494,4,4,Diocletian,Diocletian
+495,4,4,Diocletian,Diocletian
+496,4,4,Diocletian,Diocletian
+497,4,4,Diocletian,Diocletian
+498,4,4,Diocletian,Diocletian
+499,4,4,Diocletian,Diocletian
+500,4,4,Diocletian,Diocletian
+501,4,10,Diocletian,Maximian
+502,4,4,Diocletian,Diocletian
+503,4,5,Diocletian,Galerius
+504,4,4,Diocletian,Diocletian
+505,4,5,Diocletian,Galerius
+506,4,4,Diocletian,Diocletian
+507,4,4,Diocletian,Diocletian
+508,4,4,Diocletian,Diocletian
+509,4,4,Diocletian,Diocletian
+510,4,10,Diocletian,Maximian
+511,4,5,Diocletian,Galerius
+512,4,4,Diocletian,Diocletian
+513,4,10,Diocletian,Maximian
+514,4,4,Diocletian,Diocletian
+515,4,4,Diocletian,Diocletian
+516,4,4,Diocletian,Diocletian
+517,4,10,Diocletian,Maximian
+518,4,4,Diocletian,Diocletian
+519,4,4,Diocletian,Diocletian
+520,4,4,Diocletian,Diocletian
+521,4,5,Diocletian,Galerius
+522,4,4,Diocletian,Diocletian
+523,4,4,Diocletian,Diocletian
+524,4,4,Diocletian,Diocletian
+525,4,4,Diocletian,Diocletian
+526,4,4,Diocletian,Diocletian
+527,4,4,Diocletian,Diocletian
+528,4,4,Diocletian,Diocletian
+529,4,4,Diocletian,Diocletian
+530,4,4,Diocletian,Diocletian
+531,4,4,Diocletian,Diocletian
+532,4,4,Diocletian,Diocletian
+533,4,4,Diocletian,Diocletian
+534,4,4,Diocletian,Diocletian
+535,4,4,Diocletian,Diocletian
+536,4,4,Diocletian,Diocletian
+537,4,4,Diocletian,Diocletian
+538,4,8,Diocletian,Licinius
+539,4,5,Diocletian,Galerius
+540,4,4,Diocletian,Diocletian
+541,4,4,Diocletian,Diocletian
+542,4,4,Diocletian,Diocletian
+543,4,4,Diocletian,Diocletian
+544,4,6,Diocletian,Gallienus
+545,4,4,Diocletian,Diocletian
+546,4,4,Diocletian,Diocletian
+547,4,4,Diocletian,Diocletian
+548,4,4,Diocletian,Diocletian
+549,4,4,Diocletian,Diocletian
+550,4,4,Diocletian,Diocletian
+551,4,4,Diocletian,Diocletian
+552,4,10,Diocletian,Maximian
+553,4,4,Diocletian,Diocletian
+554,4,4,Diocletian,Diocletian
+555,4,4,Diocletian,Diocletian
+556,4,4,Diocletian,Diocletian
+557,4,4,Diocletian,Diocletian
+558,4,4,Diocletian,Diocletian
+559,4,4,Diocletian,Diocletian
+560,4,4,Diocletian,Diocletian
+561,4,2,Diocletian,Constantine II
+562,4,10,Diocletian,Maximian
+563,4,4,Diocletian,Diocletian
+564,4,4,Diocletian,Diocletian
+565,4,3,Diocletian,Constantius II
+566,4,4,Diocletian,Diocletian
+567,4,4,Diocletian,Diocletian
+568,4,4,Diocletian,Diocletian
+569,4,4,Diocletian,Diocletian
+570,4,4,Diocletian,Diocletian
+571,4,4,Diocletian,Diocletian
+572,4,4,Diocletian,Diocletian
+573,4,5,Diocletian,Galerius
+574,4,4,Diocletian,Diocletian
+575,4,4,Diocletian,Diocletian
+576,4,4,Diocletian,Diocletian
+577,4,4,Diocletian,Diocletian
+578,5,5,Galerius,Galerius
+579,5,10,Galerius,Maximian
+580,5,4,Galerius,Diocletian
+581,5,5,Galerius,Galerius
+582,5,10,Galerius,Maximian
+583,5,8,Galerius,Licinius
+584,5,5,Galerius,Galerius
+585,5,5,Galerius,Galerius
+586,5,6,Galerius,Gallienus
+587,5,5,Galerius,Galerius
+588,5,5,Galerius,Galerius
+589,5,5,Galerius,Galerius
+590,5,10,Galerius,Maximian
+591,5,5,Galerius,Galerius
+592,5,10,Galerius,Maximian
+593,5,5,Galerius,Galerius
+594,5,5,Galerius,Galerius
+595,5,5,Galerius,Galerius
+596,5,5,Galerius,Galerius
+597,5,5,Galerius,Galerius
+598,5,5,Galerius,Galerius
+599,5,10,Galerius,Maximian
+600,5,5,Galerius,Galerius
+601,5,10,Galerius,Maximian
+602,5,5,Galerius,Galerius
+603,5,5,Galerius,Galerius
+604,5,5,Galerius,Galerius
+605,5,5,Galerius,Galerius
+606,5,5,Galerius,Galerius
+607,5,5,Galerius,Galerius
+608,5,5,Galerius,Galerius
+609,5,5,Galerius,Galerius
+610,5,5,Galerius,Galerius
+611,5,5,Galerius,Galerius
+612,5,5,Galerius,Galerius
+613,5,5,Galerius,Galerius
+614,5,10,Galerius,Maximian
+615,5,10,Galerius,Maximian
+616,5,5,Galerius,Galerius
+617,5,5,Galerius,Galerius
+618,5,5,Galerius,Galerius
+619,5,5,Galerius,Galerius
+620,5,5,Galerius,Galerius
+621,5,5,Galerius,Galerius
+622,5,5,Galerius,Galerius
+623,5,5,Galerius,Galerius
+624,5,5,Galerius,Galerius
+625,5,5,Galerius,Galerius
+626,5,5,Galerius,Galerius
+627,5,5,Galerius,Galerius
+628,5,5,Galerius,Galerius
+629,5,5,Galerius,Galerius
+630,5,5,Galerius,Galerius
+631,5,10,Galerius,Maximian
+632,5,5,Galerius,Galerius
+633,5,4,Galerius,Diocletian
+634,5,5,Galerius,Galerius
+635,5,8,Galerius,Licinius
+636,5,8,Galerius,Licinius
+637,5,5,Galerius,Galerius
+638,5,4,Galerius,Diocletian
+639,5,4,Galerius,Diocletian
+640,5,10,Galerius,Maximian
+641,5,5,Galerius,Galerius
+642,5,5,Galerius,Galerius
+643,5,5,Galerius,Galerius
+644,5,5,Galerius,Galerius
+645,5,5,Galerius,Galerius
+646,5,5,Galerius,Galerius
+647,5,5,Galerius,Galerius
+648,5,5,Galerius,Galerius
+649,5,5,Galerius,Galerius
+650,5,5,Galerius,Galerius
+651,5,5,Galerius,Galerius
+652,5,5,Galerius,Galerius
+653,5,2,Galerius,Constantine II
+654,5,8,Galerius,Licinius
+655,5,8,Galerius,Licinius
+656,5,5,Galerius,Galerius
+657,5,5,Galerius,Galerius
+658,5,5,Galerius,Galerius
+659,5,5,Galerius,Galerius
+660,5,5,Galerius,Galerius
+661,5,5,Galerius,Galerius
+662,5,5,Galerius,Galerius
+663,5,5,Galerius,Galerius
+664,5,5,Galerius,Galerius
+665,5,5,Galerius,Galerius
+666,5,5,Galerius,Galerius
+667,5,5,Galerius,Galerius
+668,5,5,Galerius,Galerius
+669,5,5,Galerius,Galerius
+670,5,5,Galerius,Galerius
+671,5,5,Galerius,Galerius
+672,5,5,Galerius,Galerius
+673,5,5,Galerius,Galerius
+674,5,5,Galerius,Galerius
+675,5,5,Galerius,Galerius
+676,5,5,Galerius,Galerius
+677,5,5,Galerius,Galerius
+678,5,5,Galerius,Galerius
+679,5,5,Galerius,Galerius
+680,5,5,Galerius,Galerius
+681,5,5,Galerius,Galerius
+682,5,5,Galerius,Galerius
+683,5,5,Galerius,Galerius
+684,5,5,Galerius,Galerius
+685,5,10,Galerius,Maximian
+686,5,4,Galerius,Diocletian
+687,5,5,Galerius,Galerius
+688,5,10,Galerius,Maximian
+689,5,5,Galerius,Galerius
+690,5,5,Galerius,Galerius
+691,5,5,Galerius,Galerius
+692,6,6,Gallienus,Gallienus
+693,6,6,Gallienus,Gallienus
+694,6,6,Gallienus,Gallienus
+695,6,6,Gallienus,Gallienus
+696,6,6,Gallienus,Gallienus
+697,6,6,Gallienus,Gallienus
+698,6,6,Gallienus,Gallienus
+699,6,6,Gallienus,Gallienus
+700,6,6,Gallienus,Gallienus
+701,6,6,Gallienus,Gallienus
+702,6,6,Gallienus,Gallienus
+703,6,6,Gallienus,Gallienus
+704,6,6,Gallienus,Gallienus
+705,6,6,Gallienus,Gallienus
+706,6,6,Gallienus,Gallienus
+707,6,6,Gallienus,Gallienus
+708,6,6,Gallienus,Gallienus
+709,6,6,Gallienus,Gallienus
+710,6,6,Gallienus,Gallienus
+711,6,6,Gallienus,Gallienus
+712,6,6,Gallienus,Gallienus
+713,6,6,Gallienus,Gallienus
+714,6,6,Gallienus,Gallienus
+715,6,6,Gallienus,Gallienus
+716,6,6,Gallienus,Gallienus
+717,6,6,Gallienus,Gallienus
+718,6,6,Gallienus,Gallienus
+719,6,6,Gallienus,Gallienus
+720,6,6,Gallienus,Gallienus
+721,6,6,Gallienus,Gallienus
+722,6,6,Gallienus,Gallienus
+723,6,6,Gallienus,Gallienus
+724,6,6,Gallienus,Gallienus
+725,6,6,Gallienus,Gallienus
+726,6,6,Gallienus,Gallienus
+727,6,6,Gallienus,Gallienus
+728,6,6,Gallienus,Gallienus
+729,6,6,Gallienus,Gallienus
+730,6,6,Gallienus,Gallienus
+731,6,6,Gallienus,Gallienus
+732,6,6,Gallienus,Gallienus
+733,6,6,Gallienus,Gallienus
+734,6,6,Gallienus,Gallienus
+735,6,6,Gallienus,Gallienus
+736,6,6,Gallienus,Gallienus
+737,6,6,Gallienus,Gallienus
+738,6,6,Gallienus,Gallienus
+739,6,6,Gallienus,Gallienus
+740,6,6,Gallienus,Gallienus
+741,6,6,Gallienus,Gallienus
+742,6,6,Gallienus,Gallienus
+743,6,6,Gallienus,Gallienus
+744,6,6,Gallienus,Gallienus
+745,6,6,Gallienus,Gallienus
+746,6,6,Gallienus,Gallienus
+747,6,3,Gallienus,Constantius II
+748,6,6,Gallienus,Gallienus
+749,6,6,Gallienus,Gallienus
+750,6,6,Gallienus,Gallienus
+751,6,6,Gallienus,Gallienus
+752,6,6,Gallienus,Gallienus
+753,6,6,Gallienus,Gallienus
+754,6,6,Gallienus,Gallienus
+755,6,6,Gallienus,Gallienus
+756,6,6,Gallienus,Gallienus
+757,6,6,Gallienus,Gallienus
+758,6,6,Gallienus,Gallienus
+759,6,6,Gallienus,Gallienus
+760,6,6,Gallienus,Gallienus
+761,6,6,Gallienus,Gallienus
+762,6,6,Gallienus,Gallienus
+763,6,6,Gallienus,Gallienus
+764,6,6,Gallienus,Gallienus
+765,6,6,Gallienus,Gallienus
+766,6,6,Gallienus,Gallienus
+767,6,6,Gallienus,Gallienus
+768,6,6,Gallienus,Gallienus
+769,6,6,Gallienus,Gallienus
+770,6,6,Gallienus,Gallienus
+771,6,6,Gallienus,Gallienus
+772,6,6,Gallienus,Gallienus
+773,6,6,Gallienus,Gallienus
+774,6,6,Gallienus,Gallienus
+775,6,6,Gallienus,Gallienus
+776,6,6,Gallienus,Gallienus
+777,6,6,Gallienus,Gallienus
+778,6,6,Gallienus,Gallienus
+779,6,6,Gallienus,Gallienus
+780,6,6,Gallienus,Gallienus
+781,6,6,Gallienus,Gallienus
+782,6,6,Gallienus,Gallienus
+783,6,6,Gallienus,Gallienus
+784,6,6,Gallienus,Gallienus
+785,6,6,Gallienus,Gallienus
+786,6,6,Gallienus,Gallienus
+787,6,6,Gallienus,Gallienus
+788,6,6,Gallienus,Gallienus
+789,6,6,Gallienus,Gallienus
+790,6,6,Gallienus,Gallienus
+791,6,6,Gallienus,Gallienus
+792,6,6,Gallienus,Gallienus
+793,6,6,Gallienus,Gallienus
+794,6,6,Gallienus,Gallienus
+795,6,6,Gallienus,Gallienus
+796,6,6,Gallienus,Gallienus
+797,6,6,Gallienus,Gallienus
+798,6,6,Gallienus,Gallienus
+799,6,6,Gallienus,Gallienus
+800,6,6,Gallienus,Gallienus
+801,6,6,Gallienus,Gallienus
+802,6,4,Gallienus,Diocletian
+803,6,6,Gallienus,Gallienus
+804,6,6,Gallienus,Gallienus
+805,6,6,Gallienus,Gallienus
+806,6,6,Gallienus,Gallienus
+807,6,6,Gallienus,Gallienus
+808,6,6,Gallienus,Gallienus
+809,6,6,Gallienus,Gallienus
+810,6,6,Gallienus,Gallienus
+811,6,3,Gallienus,Constantius II
+812,6,6,Gallienus,Gallienus
+813,6,6,Gallienus,Gallienus
+814,6,6,Gallienus,Gallienus
+815,6,6,Gallienus,Gallienus
+816,6,6,Gallienus,Gallienus
+817,6,6,Gallienus,Gallienus
+818,6,6,Gallienus,Gallienus
+819,6,6,Gallienus,Gallienus
+820,6,6,Gallienus,Gallienus
+821,6,6,Gallienus,Gallienus
+822,6,6,Gallienus,Gallienus
+823,6,6,Gallienus,Gallienus
+824,6,6,Gallienus,Gallienus
+825,6,6,Gallienus,Gallienus
+826,6,6,Gallienus,Gallienus
+827,6,6,Gallienus,Gallienus
+828,6,6,Gallienus,Gallienus
+829,6,6,Gallienus,Gallienus
+830,6,6,Gallienus,Gallienus
+831,6,6,Gallienus,Gallienus
+832,7,7,Hadrian,Hadrian
+833,7,7,Hadrian,Hadrian
+834,7,7,Hadrian,Hadrian
+835,7,1,Hadrian,Constantine I
+836,7,7,Hadrian,Hadrian
+837,7,7,Hadrian,Hadrian
+838,7,7,Hadrian,Hadrian
+839,7,7,Hadrian,Hadrian
+840,7,9,Hadrian,Marcus Aurelius
+841,7,7,Hadrian,Hadrian
+842,7,7,Hadrian,Hadrian
+843,7,0,Hadrian,Antoninus Pius
+844,7,9,Hadrian,Marcus Aurelius
+845,7,7,Hadrian,Hadrian
+846,7,7,Hadrian,Hadrian
+847,7,7,Hadrian,Hadrian
+848,7,7,Hadrian,Hadrian
+849,7,7,Hadrian,Hadrian
+850,7,7,Hadrian,Hadrian
+851,7,7,Hadrian,Hadrian
+852,7,7,Hadrian,Hadrian
+853,7,7,Hadrian,Hadrian
+854,7,7,Hadrian,Hadrian
+855,7,7,Hadrian,Hadrian
+856,7,7,Hadrian,Hadrian
+857,7,7,Hadrian,Hadrian
+858,7,7,Hadrian,Hadrian
+859,7,0,Hadrian,Antoninus Pius
+860,7,7,Hadrian,Hadrian
+861,7,7,Hadrian,Hadrian
+862,7,7,Hadrian,Hadrian
+863,7,7,Hadrian,Hadrian
+864,7,7,Hadrian,Hadrian
+865,7,7,Hadrian,Hadrian
+866,7,7,Hadrian,Hadrian
+867,7,7,Hadrian,Hadrian
+868,7,7,Hadrian,Hadrian
+869,7,7,Hadrian,Hadrian
+870,7,0,Hadrian,Antoninus Pius
+871,7,7,Hadrian,Hadrian
+872,7,7,Hadrian,Hadrian
+873,7,7,Hadrian,Hadrian
+874,7,7,Hadrian,Hadrian
+875,7,7,Hadrian,Hadrian
+876,7,7,Hadrian,Hadrian
+877,7,7,Hadrian,Hadrian
+878,7,7,Hadrian,Hadrian
+879,7,0,Hadrian,Antoninus Pius
+880,7,7,Hadrian,Hadrian
+881,7,7,Hadrian,Hadrian
+882,7,0,Hadrian,Antoninus Pius
+883,7,7,Hadrian,Hadrian
+884,7,7,Hadrian,Hadrian
+885,7,7,Hadrian,Hadrian
+886,7,0,Hadrian,Antoninus Pius
+887,7,7,Hadrian,Hadrian
+888,7,7,Hadrian,Hadrian
+889,7,11,Hadrian,Trajan
+890,7,7,Hadrian,Hadrian
+891,7,9,Hadrian,Marcus Aurelius
+892,7,7,Hadrian,Hadrian
+893,7,7,Hadrian,Hadrian
+894,7,7,Hadrian,Hadrian
+895,7,7,Hadrian,Hadrian
+896,7,7,Hadrian,Hadrian
+897,7,7,Hadrian,Hadrian
+898,7,7,Hadrian,Hadrian
+899,7,7,Hadrian,Hadrian
+900,7,7,Hadrian,Hadrian
+901,7,7,Hadrian,Hadrian
+902,7,7,Hadrian,Hadrian
+903,7,7,Hadrian,Hadrian
+904,7,7,Hadrian,Hadrian
+905,7,7,Hadrian,Hadrian
+906,7,7,Hadrian,Hadrian
+907,7,7,Hadrian,Hadrian
+908,7,11,Hadrian,Trajan
+909,7,7,Hadrian,Hadrian
+910,7,7,Hadrian,Hadrian
+911,7,7,Hadrian,Hadrian
+912,7,7,Hadrian,Hadrian
+913,7,7,Hadrian,Hadrian
+914,7,7,Hadrian,Hadrian
+915,7,7,Hadrian,Hadrian
+916,7,7,Hadrian,Hadrian
+917,7,7,Hadrian,Hadrian
+918,7,7,Hadrian,Hadrian
+919,7,0,Hadrian,Antoninus Pius
+920,7,7,Hadrian,Hadrian
+921,7,7,Hadrian,Hadrian
+922,7,3,Hadrian,Constantius II
+923,7,7,Hadrian,Hadrian
+924,7,7,Hadrian,Hadrian
+925,7,7,Hadrian,Hadrian
+926,7,7,Hadrian,Hadrian
+927,7,0,Hadrian,Antoninus Pius
+928,7,7,Hadrian,Hadrian
+929,7,7,Hadrian,Hadrian
+930,7,7,Hadrian,Hadrian
+931,7,0,Hadrian,Antoninus Pius
+932,7,7,Hadrian,Hadrian
+933,7,7,Hadrian,Hadrian
+934,8,1,Licinius,Constantine I
+935,8,8,Licinius,Licinius
+936,8,8,Licinius,Licinius
+937,8,5,Licinius,Galerius
+938,8,8,Licinius,Licinius
+939,8,8,Licinius,Licinius
+940,8,1,Licinius,Constantine I
+941,8,8,Licinius,Licinius
+942,8,8,Licinius,Licinius
+943,8,8,Licinius,Licinius
+944,8,8,Licinius,Licinius
+945,8,8,Licinius,Licinius
+946,8,8,Licinius,Licinius
+947,8,8,Licinius,Licinius
+948,8,5,Licinius,Galerius
+949,8,8,Licinius,Licinius
+950,8,8,Licinius,Licinius
+951,8,8,Licinius,Licinius
+952,8,8,Licinius,Licinius
+953,8,8,Licinius,Licinius
+954,8,8,Licinius,Licinius
+955,8,8,Licinius,Licinius
+956,8,8,Licinius,Licinius
+957,8,8,Licinius,Licinius
+958,8,8,Licinius,Licinius
+959,8,8,Licinius,Licinius
+960,8,1,Licinius,Constantine I
+961,8,1,Licinius,Constantine I
+962,8,8,Licinius,Licinius
+963,8,5,Licinius,Galerius
+964,8,8,Licinius,Licinius
+965,8,8,Licinius,Licinius
+966,8,10,Licinius,Maximian
+967,8,1,Licinius,Constantine I
+968,8,8,Licinius,Licinius
+969,8,8,Licinius,Licinius
+970,8,8,Licinius,Licinius
+971,8,8,Licinius,Licinius
+972,8,8,Licinius,Licinius
+973,8,8,Licinius,Licinius
+974,8,5,Licinius,Galerius
+975,8,8,Licinius,Licinius
+976,8,1,Licinius,Constantine I
+977,8,8,Licinius,Licinius
+978,8,8,Licinius,Licinius
+979,8,8,Licinius,Licinius
+980,8,8,Licinius,Licinius
+981,8,8,Licinius,Licinius
+982,8,8,Licinius,Licinius
+983,8,8,Licinius,Licinius
+984,8,1,Licinius,Constantine I
+985,8,8,Licinius,Licinius
+986,8,8,Licinius,Licinius
+987,8,8,Licinius,Licinius
+988,8,8,Licinius,Licinius
+989,8,8,Licinius,Licinius
+990,8,8,Licinius,Licinius
+991,8,8,Licinius,Licinius
+992,8,8,Licinius,Licinius
+993,8,8,Licinius,Licinius
+994,8,8,Licinius,Licinius
+995,8,8,Licinius,Licinius
+996,8,8,Licinius,Licinius
+997,8,8,Licinius,Licinius
+998,8,8,Licinius,Licinius
+999,8,8,Licinius,Licinius
+1000,8,8,Licinius,Licinius
+1001,8,8,Licinius,Licinius
+1002,8,8,Licinius,Licinius
+1003,8,8,Licinius,Licinius
+1004,8,8,Licinius,Licinius
+1005,8,8,Licinius,Licinius
+1006,8,8,Licinius,Licinius
+1007,8,5,Licinius,Galerius
+1008,8,8,Licinius,Licinius
+1009,8,8,Licinius,Licinius
+1010,8,8,Licinius,Licinius
+1011,8,8,Licinius,Licinius
+1012,8,8,Licinius,Licinius
+1013,8,8,Licinius,Licinius
+1014,8,8,Licinius,Licinius
+1015,8,1,Licinius,Constantine I
+1016,8,8,Licinius,Licinius
+1017,8,8,Licinius,Licinius
+1018,8,8,Licinius,Licinius
+1019,8,8,Licinius,Licinius
+1020,8,8,Licinius,Licinius
+1021,8,8,Licinius,Licinius
+1022,8,8,Licinius,Licinius
+1023,8,8,Licinius,Licinius
+1024,8,8,Licinius,Licinius
+1025,8,8,Licinius,Licinius
+1026,8,8,Licinius,Licinius
+1027,8,8,Licinius,Licinius
+1028,8,5,Licinius,Galerius
+1029,8,8,Licinius,Licinius
+1030,8,10,Licinius,Maximian
+1031,8,8,Licinius,Licinius
+1032,8,8,Licinius,Licinius
+1033,8,8,Licinius,Licinius
+1034,8,8,Licinius,Licinius
+1035,8,8,Licinius,Licinius
+1036,8,8,Licinius,Licinius
+1037,8,8,Licinius,Licinius
+1038,8,8,Licinius,Licinius
+1039,8,5,Licinius,Galerius
+1040,8,8,Licinius,Licinius
+1041,8,1,Licinius,Constantine I
+1042,8,8,Licinius,Licinius
+1043,8,5,Licinius,Galerius
+1044,8,1,Licinius,Constantine I
+1045,8,8,Licinius,Licinius
+1046,8,8,Licinius,Licinius
+1047,8,8,Licinius,Licinius
+1048,8,8,Licinius,Licinius
+1049,8,8,Licinius,Licinius
+1050,8,8,Licinius,Licinius
+1051,8,8,Licinius,Licinius
+1052,8,8,Licinius,Licinius
+1053,8,5,Licinius,Galerius
+1054,9,9,Marcus Aurelius,Marcus Aurelius
+1055,9,9,Marcus Aurelius,Marcus Aurelius
+1056,9,0,Marcus Aurelius,Antoninus Pius
+1057,9,7,Marcus Aurelius,Hadrian
+1058,9,0,Marcus Aurelius,Antoninus Pius
+1059,9,9,Marcus Aurelius,Marcus Aurelius
+1060,9,0,Marcus Aurelius,Antoninus Pius
+1061,9,9,Marcus Aurelius,Marcus Aurelius
+1062,9,9,Marcus Aurelius,Marcus Aurelius
+1063,9,7,Marcus Aurelius,Hadrian
+1064,9,9,Marcus Aurelius,Marcus Aurelius
+1065,9,9,Marcus Aurelius,Marcus Aurelius
+1066,9,9,Marcus Aurelius,Marcus Aurelius
+1067,9,9,Marcus Aurelius,Marcus Aurelius
+1068,9,9,Marcus Aurelius,Marcus Aurelius
+1069,9,9,Marcus Aurelius,Marcus Aurelius
+1070,9,9,Marcus Aurelius,Marcus Aurelius
+1071,9,9,Marcus Aurelius,Marcus Aurelius
+1072,9,7,Marcus Aurelius,Hadrian
+1073,9,0,Marcus Aurelius,Antoninus Pius
+1074,9,9,Marcus Aurelius,Marcus Aurelius
+1075,9,9,Marcus Aurelius,Marcus Aurelius
+1076,9,9,Marcus Aurelius,Marcus Aurelius
+1077,9,6,Marcus Aurelius,Gallienus
+1078,9,7,Marcus Aurelius,Hadrian
+1079,9,0,Marcus Aurelius,Antoninus Pius
+1080,9,0,Marcus Aurelius,Antoninus Pius
+1081,9,9,Marcus Aurelius,Marcus Aurelius
+1082,9,9,Marcus Aurelius,Marcus Aurelius
+1083,9,9,Marcus Aurelius,Marcus Aurelius
+1084,9,9,Marcus Aurelius,Marcus Aurelius
+1085,9,9,Marcus Aurelius,Marcus Aurelius
+1086,9,9,Marcus Aurelius,Marcus Aurelius
+1087,9,7,Marcus Aurelius,Hadrian
+1088,9,9,Marcus Aurelius,Marcus Aurelius
+1089,9,9,Marcus Aurelius,Marcus Aurelius
+1090,9,9,Marcus Aurelius,Marcus Aurelius
+1091,9,9,Marcus Aurelius,Marcus Aurelius
+1092,9,9,Marcus Aurelius,Marcus Aurelius
+1093,9,9,Marcus Aurelius,Marcus Aurelius
+1094,9,9,Marcus Aurelius,Marcus Aurelius
+1095,9,9,Marcus Aurelius,Marcus Aurelius
+1096,9,9,Marcus Aurelius,Marcus Aurelius
+1097,9,9,Marcus Aurelius,Marcus Aurelius
+1098,9,9,Marcus Aurelius,Marcus Aurelius
+1099,9,9,Marcus Aurelius,Marcus Aurelius
+1100,9,9,Marcus Aurelius,Marcus Aurelius
+1101,9,9,Marcus Aurelius,Marcus Aurelius
+1102,9,9,Marcus Aurelius,Marcus Aurelius
+1103,9,9,Marcus Aurelius,Marcus Aurelius
+1104,9,9,Marcus Aurelius,Marcus Aurelius
+1105,9,9,Marcus Aurelius,Marcus Aurelius
+1106,9,9,Marcus Aurelius,Marcus Aurelius
+1107,9,9,Marcus Aurelius,Marcus Aurelius
+1108,9,9,Marcus Aurelius,Marcus Aurelius
+1109,9,9,Marcus Aurelius,Marcus Aurelius
+1110,9,9,Marcus Aurelius,Marcus Aurelius
+1111,9,9,Marcus Aurelius,Marcus Aurelius
+1112,9,9,Marcus Aurelius,Marcus Aurelius
+1113,9,9,Marcus Aurelius,Marcus Aurelius
+1114,9,9,Marcus Aurelius,Marcus Aurelius
+1115,9,9,Marcus Aurelius,Marcus Aurelius
+1116,9,9,Marcus Aurelius,Marcus Aurelius
+1117,9,9,Marcus Aurelius,Marcus Aurelius
+1118,9,9,Marcus Aurelius,Marcus Aurelius
+1119,9,9,Marcus Aurelius,Marcus Aurelius
+1120,9,9,Marcus Aurelius,Marcus Aurelius
+1121,9,9,Marcus Aurelius,Marcus Aurelius
+1122,9,0,Marcus Aurelius,Antoninus Pius
+1123,9,9,Marcus Aurelius,Marcus Aurelius
+1124,9,9,Marcus Aurelius,Marcus Aurelius
+1125,9,9,Marcus Aurelius,Marcus Aurelius
+1126,9,9,Marcus Aurelius,Marcus Aurelius
+1127,9,9,Marcus Aurelius,Marcus Aurelius
+1128,9,9,Marcus Aurelius,Marcus Aurelius
+1129,9,9,Marcus Aurelius,Marcus Aurelius
+1130,9,9,Marcus Aurelius,Marcus Aurelius
+1131,9,0,Marcus Aurelius,Antoninus Pius
+1132,9,9,Marcus Aurelius,Marcus Aurelius
+1133,9,9,Marcus Aurelius,Marcus Aurelius
+1134,9,9,Marcus Aurelius,Marcus Aurelius
+1135,9,2,Marcus Aurelius,Constantine II
+1136,9,0,Marcus Aurelius,Antoninus Pius
+1137,9,9,Marcus Aurelius,Marcus Aurelius
+1138,9,11,Marcus Aurelius,Trajan
+1139,9,9,Marcus Aurelius,Marcus Aurelius
+1140,9,9,Marcus Aurelius,Marcus Aurelius
+1141,9,9,Marcus Aurelius,Marcus Aurelius
+1142,9,9,Marcus Aurelius,Marcus Aurelius
+1143,9,9,Marcus Aurelius,Marcus Aurelius
+1144,9,9,Marcus Aurelius,Marcus Aurelius
+1145,9,9,Marcus Aurelius,Marcus Aurelius
+1146,9,9,Marcus Aurelius,Marcus Aurelius
+1147,9,9,Marcus Aurelius,Marcus Aurelius
+1148,9,9,Marcus Aurelius,Marcus Aurelius
+1149,9,9,Marcus Aurelius,Marcus Aurelius
+1150,9,9,Marcus Aurelius,Marcus Aurelius
+1151,9,9,Marcus Aurelius,Marcus Aurelius
+1152,9,9,Marcus Aurelius,Marcus Aurelius
+1153,9,9,Marcus Aurelius,Marcus Aurelius
+1154,9,9,Marcus Aurelius,Marcus Aurelius
+1155,9,9,Marcus Aurelius,Marcus Aurelius
+1156,9,9,Marcus Aurelius,Marcus Aurelius
+1157,9,9,Marcus Aurelius,Marcus Aurelius
+1158,9,9,Marcus Aurelius,Marcus Aurelius
+1159,9,9,Marcus Aurelius,Marcus Aurelius
+1160,9,9,Marcus Aurelius,Marcus Aurelius
+1161,9,9,Marcus Aurelius,Marcus Aurelius
+1162,9,9,Marcus Aurelius,Marcus Aurelius
+1163,9,9,Marcus Aurelius,Marcus Aurelius
+1164,9,11,Marcus Aurelius,Trajan
+1165,9,0,Marcus Aurelius,Antoninus Pius
+1166,9,9,Marcus Aurelius,Marcus Aurelius
+1167,9,9,Marcus Aurelius,Marcus Aurelius
+1168,9,9,Marcus Aurelius,Marcus Aurelius
+1169,9,6,Marcus Aurelius,Gallienus
+1170,10,10,Maximian,Maximian
+1171,10,10,Maximian,Maximian
+1172,10,3,Maximian,Constantius II
+1173,10,10,Maximian,Maximian
+1174,10,10,Maximian,Maximian
+1175,10,10,Maximian,Maximian
+1176,10,5,Maximian,Galerius
+1177,10,10,Maximian,Maximian
+1178,10,10,Maximian,Maximian
+1179,10,10,Maximian,Maximian
+1180,10,10,Maximian,Maximian
+1181,10,10,Maximian,Maximian
+1182,10,5,Maximian,Galerius
+1183,10,10,Maximian,Maximian
+1184,10,10,Maximian,Maximian
+1185,10,10,Maximian,Maximian
+1186,10,10,Maximian,Maximian
+1187,10,4,Maximian,Diocletian
+1188,10,10,Maximian,Maximian
+1189,10,10,Maximian,Maximian
+1190,10,5,Maximian,Galerius
+1191,10,10,Maximian,Maximian
+1192,10,5,Maximian,Galerius
+1193,10,10,Maximian,Maximian
+1194,10,4,Maximian,Diocletian
+1195,10,5,Maximian,Galerius
+1196,10,10,Maximian,Maximian
+1197,10,5,Maximian,Galerius
+1198,10,10,Maximian,Maximian
+1199,10,4,Maximian,Diocletian
+1200,10,10,Maximian,Maximian
+1201,10,10,Maximian,Maximian
+1202,10,10,Maximian,Maximian
+1203,10,10,Maximian,Maximian
+1204,10,10,Maximian,Maximian
+1205,10,10,Maximian,Maximian
+1206,10,10,Maximian,Maximian
+1207,10,4,Maximian,Diocletian
+1208,10,10,Maximian,Maximian
+1209,10,10,Maximian,Maximian
+1210,10,10,Maximian,Maximian
+1211,10,10,Maximian,Maximian
+1212,10,10,Maximian,Maximian
+1213,10,8,Maximian,Licinius
+1214,10,10,Maximian,Maximian
+1215,10,10,Maximian,Maximian
+1216,10,5,Maximian,Galerius
+1217,10,10,Maximian,Maximian
+1218,10,10,Maximian,Maximian
+1219,10,10,Maximian,Maximian
+1220,10,10,Maximian,Maximian
+1221,10,10,Maximian,Maximian
+1222,10,10,Maximian,Maximian
+1223,10,10,Maximian,Maximian
+1224,10,10,Maximian,Maximian
+1225,10,10,Maximian,Maximian
+1226,10,10,Maximian,Maximian
+1227,10,10,Maximian,Maximian
+1228,10,10,Maximian,Maximian
+1229,10,10,Maximian,Maximian
+1230,10,10,Maximian,Maximian
+1231,10,10,Maximian,Maximian
+1232,10,10,Maximian,Maximian
+1233,10,10,Maximian,Maximian
+1234,10,10,Maximian,Maximian
+1235,10,10,Maximian,Maximian
+1236,10,10,Maximian,Maximian
+1237,10,10,Maximian,Maximian
+1238,10,10,Maximian,Maximian
+1239,10,10,Maximian,Maximian
+1240,10,10,Maximian,Maximian
+1241,10,5,Maximian,Galerius
+1242,10,10,Maximian,Maximian
+1243,10,10,Maximian,Maximian
+1244,10,10,Maximian,Maximian
+1245,10,10,Maximian,Maximian
+1246,10,10,Maximian,Maximian
+1247,10,5,Maximian,Galerius
+1248,10,10,Maximian,Maximian
+1249,10,5,Maximian,Galerius
+1250,10,10,Maximian,Maximian
+1251,10,10,Maximian,Maximian
+1252,10,3,Maximian,Constantius II
+1253,10,10,Maximian,Maximian
+1254,10,10,Maximian,Maximian
+1255,10,10,Maximian,Maximian
+1256,10,5,Maximian,Galerius
+1257,10,10,Maximian,Maximian
+1258,11,11,Trajan,Trajan
+1259,11,11,Trajan,Trajan
+1260,11,11,Trajan,Trajan
+1261,11,4,Trajan,Diocletian
+1262,11,11,Trajan,Trajan
+1263,11,7,Trajan,Hadrian
+1264,11,11,Trajan,Trajan
+1265,11,11,Trajan,Trajan
+1266,11,11,Trajan,Trajan
+1267,11,7,Trajan,Hadrian
+1268,11,11,Trajan,Trajan
+1269,11,11,Trajan,Trajan
+1270,11,7,Trajan,Hadrian
+1271,11,11,Trajan,Trajan
+1272,11,11,Trajan,Trajan
+1273,11,11,Trajan,Trajan
+1274,11,7,Trajan,Hadrian
+1275,11,11,Trajan,Trajan
+1276,11,1,Trajan,Constantine I
+1277,11,11,Trajan,Trajan
+1278,11,11,Trajan,Trajan
+1279,11,11,Trajan,Trajan
+1280,11,11,Trajan,Trajan
+1281,11,11,Trajan,Trajan
+1282,11,11,Trajan,Trajan
+1283,11,11,Trajan,Trajan
+1284,11,11,Trajan,Trajan
+1285,11,11,Trajan,Trajan
+1286,11,11,Trajan,Trajan
+1287,11,11,Trajan,Trajan
+1288,11,11,Trajan,Trajan
+1289,11,11,Trajan,Trajan
+1290,11,11,Trajan,Trajan
+1291,11,11,Trajan,Trajan
+1292,11,11,Trajan,Trajan
+1293,11,11,Trajan,Trajan
+1294,11,11,Trajan,Trajan
+1295,11,11,Trajan,Trajan
+1296,11,11,Trajan,Trajan
+1297,11,0,Trajan,Antoninus Pius
+1298,11,11,Trajan,Trajan
+1299,11,11,Trajan,Trajan
+1300,11,11,Trajan,Trajan
+1301,11,11,Trajan,Trajan
+1302,11,11,Trajan,Trajan
+1303,11,11,Trajan,Trajan
+1304,11,7,Trajan,Hadrian
+1305,11,11,Trajan,Trajan
+1306,11,11,Trajan,Trajan
+1307,11,11,Trajan,Trajan
+1308,11,11,Trajan,Trajan
+1309,11,11,Trajan,Trajan
+1310,11,11,Trajan,Trajan
+1311,11,11,Trajan,Trajan
+1312,11,11,Trajan,Trajan
+1313,11,11,Trajan,Trajan
+1314,11,11,Trajan,Trajan
+1315,11,11,Trajan,Trajan
+1316,11,11,Trajan,Trajan
+1317,11,11,Trajan,Trajan
+1318,11,11,Trajan,Trajan
+1319,11,11,Trajan,Trajan
+1320,11,11,Trajan,Trajan
+1321,11,11,Trajan,Trajan
+1322,11,11,Trajan,Trajan
+1323,11,11,Trajan,Trajan
+1324,11,11,Trajan,Trajan
+1325,11,11,Trajan,Trajan
+1326,11,11,Trajan,Trajan
+1327,11,11,Trajan,Trajan
+1328,11,11,Trajan,Trajan
+1329,11,11,Trajan,Trajan
+1330,11,11,Trajan,Trajan
+1331,11,11,Trajan,Trajan
+1332,11,11,Trajan,Trajan
+1333,11,11,Trajan,Trajan
+1334,11,11,Trajan,Trajan
+1335,11,11,Trajan,Trajan
+1336,11,11,Trajan,Trajan
+1337,11,11,Trajan,Trajan
+1338,11,11,Trajan,Trajan
+1339,11,11,Trajan,Trajan
+1340,11,11,Trajan,Trajan
+1341,11,11,Trajan,Trajan
+1342,11,11,Trajan,Trajan
+1343,11,11,Trajan,Trajan
+1344,11,11,Trajan,Trajan
+1345,11,11,Trajan,Trajan
+1346,11,11,Trajan,Trajan
+1347,11,11,Trajan,Trajan
+1348,11,11,Trajan,Trajan
+1349,11,11,Trajan,Trajan
+1350,11,11,Trajan,Trajan
+1351,11,11,Trajan,Trajan
+1352,11,11,Trajan,Trajan
+1353,11,11,Trajan,Trajan
+1354,11,11,Trajan,Trajan
+1355,11,11,Trajan,Trajan
+1356,11,11,Trajan,Trajan
+1357,11,11,Trajan,Trajan
+1358,11,11,Trajan,Trajan
+1359,11,11,Trajan,Trajan
+1360,11,11,Trajan,Trajan
+1361,11,11,Trajan,Trajan
+1362,11,7,Trajan,Hadrian
+1363,11,11,Trajan,Trajan
+1364,11,11,Trajan,Trajan
+1365,11,11,Trajan,Trajan
+1366,11,11,Trajan,Trajan
+1367,11,11,Trajan,Trajan
+1368,11,11,Trajan,Trajan
+1369,11,11,Trajan,Trajan
+1370,11,11,Trajan,Trajan

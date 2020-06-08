@@ -100,7 +100,7 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
     Input:  3 keras objects
     Output: Seaborn plots(matplotlib objects), keras weight checkpoints, trained CNN model
     """
-    
+    import pandas as pd
     from tensorflow.keras import callbacks
     from plot_helper import acc_plotter, loss_plotter
     import sys
@@ -157,13 +157,15 @@ def model_fit(train, val, model, epoch=50, steps_per_epoch = 100):
     
     print('Ftting complete with validation accuracy: {val_acc}. Now saving the fitted model.')
     
+    # Saving the trained model
     vgg_model.save('../saved_models/vgg_model.h5')    
     
-    print("Saving complete. Now plotting the model's losses and accuracies.")
     
-    loss_plotter(history)
-    acc_plotter(history)
-
+    # Saving the trained model's losses and accuracies as a csv file
+    pd.DataFrame(history.history).to_csv("../data/vgg_model_history.csv")
+    
+    print("Saving complete.")
+    
 if __name__ == '__main__':
     dim = 224
     train_gen, val_gen, _, _ = data_generator.data_gen()

@@ -1,4 +1,4 @@
-def loss_plotter(model_history):
+def loss_plotter(model_history, ax=None):
     """
     The function takes a trained keras model and plots a training and validating losses over epochs
     
@@ -9,23 +9,21 @@ def loss_plotter(model_history):
     import matplotlib.pyplot as plt
     import seaborn as sns
 
-    training_loss = model_history.history['loss']
+    training_loss = model_history['loss']
     
-    test_loss = model_history.history['val_loss']
+    test_loss = model_history['val_loss']
 
     epoch_count = range(1,len(training_loss)+1)
     
-    fig,ax = plt.subplots(figsize=(15,8))
-
     sns.set(font_scale=1.15)
     
-    sns.lineplot(
+    ax = sns.lineplot(
         x=epoch_count,
         y=training_loss,
         ax=ax
     )
     
-    sns.lineplot(
+    ax = sns.lineplot(
         x=epoch_count,
         y=test_loss,
         ax=ax
@@ -47,7 +45,7 @@ def loss_plotter(model_history):
     plt.legend(['Training Loss', 'Validation Loss'])
     plt.show()
     
-def acc_plotter(model_history):
+def acc_plotter(model_history, ax = None):
     """
     The function takes a trained keras model and plots a training and validating accuracies over epochs
     
@@ -58,13 +56,13 @@ def acc_plotter(model_history):
     import matplotlib.pyplot as plt
     import seaborn as sns
     
-    acc = model_history.history['accuracy']
+    training_loss = model_history['loss']
+
+    acc = model_history['accuracy']
     
-    val_acc = model_history.history['val_accuracy']
+    val_acc = model_history['val_accuracy']
 
     epoch_count = range(1,len(training_loss)+1)
-
-    fig,ax = plt.subplots(figsize=(15,8))
     
     sns.set(font_scale=1.15)
     
@@ -90,7 +88,7 @@ def acc_plotter(model_history):
 
     plt.show()
     
-def cm_plotter(y_true, y_pred, label):
+def cm_plotter(df, ax = None):
     """
     The function generates a confusion matrix from the inputed true and predicted y values, and their labels.
     
@@ -103,20 +101,20 @@ def cm_plotter(y_true, y_pred, label):
     import matplotlib.pyplot as plt
     import seaborn as sns
 
+    label = sorted(df.label_true.unique())
+    
     cm = confusion_matrix(
-        y_true,
-        y_pred, 
+        df['y_true'],
+        df['y_pred'], 
         normalize='true'
     )
-    
-    fig,ax = plt.subplots(figsize(12,12))
-    
+        
     sns.heatmap(
         cm,
         cmap='viridis',
         ax=ax,
-        xticklabels=class_labels, 
-        yticklabels=class_labels
+        xticklabels=label, 
+        yticklabels=label
     )
     
     ax.set_title(
@@ -125,12 +123,12 @@ def cm_plotter(y_true, y_pred, label):
     )
     
     ax.set_xlabel(
-        'True Labels',
+        'Predicted Labels',
         fontsize = 18
     )
     
     ax.set_ylabel(
-        'Predicted labels',
+        'True labels',
         fontsize = 18
     )
     
