@@ -88,8 +88,8 @@ The model I built and tuned has a total of 3 layers with 'Relu' activation, and 
 After training with 50 epochs, the training and validation accuracy and loss curves started to plateau around the 45th epoch. The curves indicate that training with 10,000 images, despite image augmentation, is not sufficient.
 
 <p float="left">
-  <img src="data/images/model_acc.png" width="400" />
-  <img src="data/images/model_loss.png" width="400" /> 
+  <img src="data/images/model_acc.png" width="500" />
+  <img src="data/images/model_loss.png" width="500" /> 
 </p>
 
 ## Transfer Learning with VGG-16
@@ -104,8 +104,8 @@ From its 5 convolutional and max-pooling layers, I let the 5th layer to train wi
 ### Transfer Model Result
 After training for 50 potty epochs the model triggered the early stopping parameter with a final validation accuracy at around 82%.
 <p float="left">
-  <img src="data/images/final_vgg_accuracy.png" width="400" />
-  <img src="data/images/final_vgg_loss.png" width="400" /> 
+  <img src="data/images/final_vgg_accuracy.png" width="500" />
+  <img src="data/images/final_vgg_loss.png" width="500" /> 
 </p>
 
 ## Conclusion
