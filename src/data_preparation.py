@@ -1,4 +1,3 @@
-
 def year_converter(year_string):
     """
     The function will remove 'AD' and 'BC' from the year and convert the string value 'nan'
@@ -7,6 +6,8 @@ def year_converter(year_string):
     Input:  Pandas series object
     Output: String objects 
     """
+    # Convert "NA" in to NaN
+    #df['year'].replace({'NA':None},inplace=True)
     
     year_string = str(year_string)
     
@@ -20,12 +21,51 @@ def year_converter(year_string):
             idx = split_string.index('BC')
             year = int('-' + split_string[len(split_string) - 1 - idx])
     else:
-        if year_string == 'nan':
+        if year_string == 'nan' or year_string == 'NA':
             year = None
         else:
             year = int(year_string)
     return year
-        
+
+def df_splitter(df, n):
+    import pandas as pd
+
+    subDf = df.groupby('portrait').apply(pd.DataFrame.sample, n=n)\
+        .reset_index(level=1)
+    
+    subDf.rename(columns = {'level_1':'original_idx'}, inplace=True)
+    
+    drop_indx = subDf.original_idx.values
+    
+    remainderDf = df.drop(drop_indx)
+    
+    return subDf, remainderDf
+
+def photo_mover(df, fname_dict):
+    import shutil, os
+    import sys
+    sys.path.append("..")
+
+    for foldername, filenames in fname_dict.items():
+        for filename in filenames:
+            emperor = df[df.fname == filename]['portrait'].values[0]
+            
+            folder_path = f'../data/{foldername}/'
+            
+            # Making sure the target directories already exist before copying images
+            if not os.path.exists(folder_path):
+                os.mkdir(folder_path)
+            
+            # Making a emperor sub-directories within the train, validation and holdout folders
+            final_path = folder_path + f"{emperor}/"
+            
+            if not os.path.exists(final_path):
+                os.mkdir(final_path)
+            
+            # Copy and paste files to appropriate sub directories
+
+            shutil.copy(filename, final_path)
+    
 def dataframe_converter(metadata):
     """
     The function will take in either a list or a json file produced by data_collection.py file.
@@ -40,24 +80,23 @@ def dataframe_converter(metadata):
     from sklearn.preprocessing import LabelEncoder
     import numpy as np
     import pandas as pd
-    import seaborn as sns
     import json
     import sys
     sys.path.append("..") ## resetting the path to the parent directory
     
     # Making sure that the inputed object is in a correct format
-    assert type(metadata) == list or metadata[-4:] == 'json'
+    #assert type(metadata) == list or metadata[-4:] == 'json'
     
     if type(metadata) == list:
         df = pd.DataFrame(metadata)
     
     else:
-        with open('../data/raw_metadata.json') as json_file:
+        with open(metadata) as json_file:
             data = json.load(json_file)
             df = pd.DataFrame.from_dict(data)
     
     # Convert "NA" in to NaN
-    df.replace({'NA':None},inplace=True)
+    #df.replace({'NA':None},inplace=True)
 
     # The scraped metadata contained photos linked with the emperors' nicknames
     # The following script will consolidate duplicates under a single name.
@@ -66,7 +105,7 @@ def dataframe_converter(metadata):
                                     'Octavian'],
                         'Valerian II': ['Valerian II Divus'],
                         'Constantine I': ['Constantine I Divus'],
-                        'Claudius':['Claudius Divus'],
+                        'Claudius':['Claudius Divus', 'Claudius '],
                         'Lucius Verus':['Lucius Verus Divus'],
                         'Marcus Aurelius':['Marcus Aurelius Divus',
                                             'under Marcus Aurelius'],
@@ -83,7 +122,6 @@ def dataframe_converter(metadata):
                         'Nerva':['Nerva Divus'],
                         'Commodus':['Commodus Divus'],
                         'Maximian':['Maximianus'],
-                        'Claudius':['Claudius '],
                         'Constantius Chlorus':['Constantius Caesar',
                                                 'Constantius I'],
                         'Caligula':['Gaius)_Caligula'],
@@ -103,7 +141,7 @@ def dataframe_converter(metadata):
                         'Valerian':['Valerian I']
                         }
     
-    for key,values in duplicate_emperors:
+    for key,values in duplicate_emperors.items():
         for value in values:
             df.loc[(df.portrait == value),'portrait'] = key
     
@@ -118,20 +156,20 @@ def dataframe_converter(metadata):
     # Converting the year column into a numeric values and remove 'BC' and 'AD'
     df['year'] = df['year'].apply(lambda x: year_converter(x))
     
-    df.to_csv('../data/raw_metadata.csv')
+    df.to_csv('../data/raw_dataframe.csv')
     
-    # Limiting the scope to emperors with 1000+ coins
-    df = df[df.groupby('portrait')['portrait'].transform('size') > 1000]
+    # Limiting the scope to emperors with 500+ coins
+    df = df[df.groupby('portrait')['portrait'].transform('size') > 500]
     
     # Imputing missing years with average years by emperors
     df['year'] = df['year'].fillna(df.groupby('portrait')['year'].transform('mean').round())
     
     # Saving the cleaned dataframe as a csv file
-    df.to_csv('../data/cleaned_metadata.csv')
+    df.to_csv('../data/cleaned_dataframe.csv')
 
     return df
 
-def photo_mover(df):
+def data_mover(df):
     """
     The function will take in a processed dataframe from dataframe_converter() function.
     It will split the information into train, validation and test sets, copy and move images to training,
@@ -142,62 +180,38 @@ def photo_mover(df):
             train,validation and test folders
     """
     import shutil, os
-    import sys
+    import sys  
     sys.path.append("..") 
     
-    # Making sure that the function is taking in a cleaned dataframe.
-    assert (df['portrait'].value_counts()>1000).sum() == 12
-    
-    print('Initiating file copy and transfer')
-    
-    from sklearn.model_selection import train_test_split
-    import shutil, os
+    print('Initiating file transfer.')
 
     # Splitting data into train, validation and test 
 
-    X_train, X_test = train_test_split(X, test_size=0.1)
-    X_train, X_val = train_test_split(X_train, test_size=0.1)
+    # Using 200 images as a train set
+    train_df, val_test = df_splitter(df,200) 
     
-    # Extracting file names from X_train, X_val and X_test for physically separating
-    # them into different folders
-    train_filenames = [fname for fname in X_train.fname]
-    val_filenames = [fname for fname in X_val.fname]
-    test_filenames = [fname for fname in X_test.fname]
-
-    # Running a for loop to copy and move target files into appropriate directories
-    filenames = {
-        'train_folder': train_filenames, 
-        'validation_folder': val_filenames, 
-        'holdout_folder': test_filenames
-    }
+    # Using 100 images to validate and set aside the rest to test 
+    # final model
+    validation_df, test_df = df_splitter(val_test, 100)
     
-    # The loop will create missing directories and copy pictures to appropriate sub-directories
-    for foldername, filename in filenames.items():
-        
-        emperor = df[df.fname == filename]['portrait'].values[0]
-        
-        folder_path = f'../data/{foldername}/'
-        
-        # Making sure the target directories already exist before copying images
-        if not os.path.exists(folder_path):
-            os.mkdir(folder_path)
-        
-        # Making a emperor sub-directories within the train, validation and holdout folders
-        folder_path += f'{emperor}/'
-        
-        if not os.path.exists(folder_path):
-            os.mkdir(folder_path)
-        
-        # Copy and paste files to appropriate sub directories
-        shutil.copy(filename, folder_path)
-
-    print('File copy and transfer complete.')
-
-
+    # Extracting file names from train,validation and test df's for 
+    # physically separating them into different folders
     
+    train_filenames = [fname for fname in train_df.fname]
+    val_filenames = [fname for fname in validation_df.fname]
+    test_filenames = [fname for fname in test_df.fname]
+    
+    train_fname_dict = {'train_folder': train_filenames} 
+    val_fname_dict = {'validation_folder': val_filenames}
+    test_fname_dict = {'holdout_folder': test_filenames}
+    
+    photo_mover(train_df, train_fname_dict)
+    photo_mover(validation_df, val_fname_dict)
+    photo_mover(test_df, test_fname_dict)
+
+    print('File transfer complete.')
+
 if __name__ == '__main__':
-    # Warning: data.img_downloader will attempt to download the entire image set from the source website.
-    import 1_data_scraper as data
-    metadata_lst = data.img_downloader()
-    cleaned_df = dataframe_converter(metadata_lst)
-    photo_mover(cleaned_df)
+    fname = '../data/raw_metadata.json'
+    cleaned_df = dataframe_converter(fname)
+    data_mover(cleaned_df)

@@ -8,7 +8,7 @@ def img_downloader():
     
     Ouput:  Dictionaries of scraped metadata (list), backup metadata (json object), image files
     """
-    
+
     from bs4 import BeautifulSoup
     import requests
     import time
@@ -19,11 +19,16 @@ def img_downloader():
 
     base_url = 'http://numismatics.org/search/results?q=department_facet%3A%22Roman%22%20AND%20year_num%3A%5B-30%20TO%20%2A%5D%20AND%20imagesavailable%3Atrue&lang=en&layout=grid&start='
         
-    iter_count = 0
+    iter_counter = 0
     dict_list = []
 
-    if not os.path.exists('../data/raw_imgs/'):
-        os.makedirs('../data/raw_imgs/')
+    folder_path = '../data/'
+    if not os.path.exists(folder_path):
+            os.mkdirs(folder_path)
+            
+    rawImgPath = folder_path + 'raw_imgs/'
+    if not os.path.exists(rawImgPath):
+        os.makedirs(rawImgPath)
         
     print('Downloading target images and parsing their metadata.')    
     
@@ -31,11 +36,11 @@ def img_downloader():
     for i in range(20, 45400, 20):
         error_counter = 0
 
-        iter_count += 1
+        iter_counter += 1
         
-        if i % 200 == 0:
-            print(f"sleeping for 2 seconds after {i}'th iteration.")
-            time.sleep(2)
+        if i % 500 == 0:
+            print(f"{i}'th iteration.")
+          #  time.sleep(1)
 
         url = base_url + str(i)
 
@@ -46,7 +51,7 @@ def img_downloader():
             try:
 
                 html_content = requests.get(url).text
-                soup = BeautifulSoup(html_content)
+                soup = BeautifulSoup(html_content,'html.parser')
                 thumbnail_urls = soup.find_all('a',{"class": "thumbImage"})
 
                 for tn_url in range(0,len(thumbnail_urls),2):
@@ -55,7 +60,7 @@ def img_downloader():
                     metadata_url = thumbnail_urls[tn_url]['id']
 
                     metadata_content = requests.get(metadata_url).text
-                    metadata_soup = BeautifulSoup(metadata_content)
+                    metadata_soup = BeautifulSoup(metadata_content,'html.parser')
                     metadata = metadata_soup.find_all('div',{'class': 'metadata_section'})
 
                     all_lis = metadata[1].find_all('li')
@@ -91,12 +96,8 @@ def img_downloader():
                     fname = f"{temp_dict['authority']}_{temp_dict['portrait']}_{time.time()}"
 
                     temp_dict['fname'] = fname
-
-                    folder_path = '../imgs/'
-                    if not os.path.exists(folder_path):
-                        os.mkdir(folder_path)
                         
-                    open(f'../imgs/{fname}.jpg' , 'wb').write(img_r.content)
+                    open(f'{rawImgPath}{fname}.jpg' , 'wb').write(img_r.content)
 
                     dict_list.append(temp_dict)
 
@@ -117,13 +118,12 @@ def img_downloader():
             print(f'page number where a 10th error was encountered: {i}')
             break
     
-    folder_path = '../data/'
-    if not os.path.exists(folder_path):
-            os.mkdir(folder_path)
+    
             
     with open('../data/raw_metadata.json', 'w') as json_f:
         json.dump(dict_list, json_f)
 
     print('Downloading and parsing processes completed.')
-    
-    return dict_list
+
+if __name__ == '__main__':
+    img_downloader()
